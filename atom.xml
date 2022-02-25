@@ -6,7 +6,7 @@
   <link href="https://tao-xiaoyu.github.io/atom.xml" rel="self"/>
   
   <link href="https://tao-xiaoyu.github.io/"/>
-  <updated>2022-01-30T13:36:51.976Z</updated>
+  <updated>2022-02-25T05:13:16.198Z</updated>
   <id>https://tao-xiaoyu.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Node.js笔记</title>
+    <link href="https://tao-xiaoyu.github.io/2022/02/25/node-bi-ji/"/>
+    <id>https://tao-xiaoyu.github.io/2022/02/25/node-bi-ji/</id>
+    <published>2022-02-25T05:10:01.522Z</published>
+    <updated>2022-02-25T05:13:16.198Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;node-js&quot;&gt;&lt;a href=&quot;#node-js&quot; class=&quot;headerlink&quot; title=&quot;node.js&quot;&gt;&lt;/a&gt;&lt;center&gt;node.js&lt;/center&gt;&lt;/h1&gt;&lt;h3 id=&quot;node的简介&quot;&gt;&lt;a href=&quot;#node的简介&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>TypeScript的基本数据类型</title>
