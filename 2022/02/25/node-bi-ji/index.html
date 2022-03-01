@@ -5,9 +5,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="Node.js笔记, manong-yu">
-    <meta name="description" content="node.jsnode的简介node.js是一个基于Chrome V8引擎的JavaScript运行环境
+    <meta name="description" content="node.jsNode.jsnode的简介node.js是一个基于Chrome V8引擎的JavaScript运行环境
 框架1、基于Express框架（http://www.expressjs.com.cn），可以快速构建web应用
-2、基于Electr">
+2、基">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -456,7 +456,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    13.1k
+                    28k
                 </div>
                 
 
@@ -473,7 +473,7 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a><center>node.js</center></h1><h3 id="node的简介"><a href="#node的简介" class="headerlink" title="node的简介"></a><font color="red">node的简介</font></h3><p>node.js是一个基于Chrome V8引擎的JavaScript运行环境</p>
+                <h1 id="node-js"><a href="#node-js" class="headerlink" title="node.js"></a><center>node.js</center></h1><h2 id="Node-js"><a href="#Node-js" class="headerlink" title="Node.js"></a><center>Node.js</center></h2><h3 id="node的简介"><a href="#node的简介" class="headerlink" title="node的简介"></a><font color="red">node的简介</font></h3><p>node.js是一个基于Chrome V8引擎的JavaScript运行环境</p>
 <h4 id="框架"><a href="#框架" class="headerlink" title="框架"></a>框架</h4><p>1、基于Express框架（<a target="_blank" rel="noopener" href="http://www.expressjs.com.cn),可以快速构建web应用/">http://www.expressjs.com.cn），可以快速构建web应用</a></p>
 <p>2、基于Electron框架（<a target="_blank" rel="noopener" href="https://electronjs.org),可以构建跨平台的桌面应用/">https://electronjs.org），可以构建跨平台的桌面应用</a></p>
 <p>3、基于restify框架（<a target="_blank" rel="noopener" href="http://restify.com),可以快速都贱api接口项目/">http://restify.com），可以快速都贱API接口项目</a></p>
@@ -735,7 +735,7 @@ fs<span class="token punctuation">.</span><span class="token function">readFile<
 </code></pre>
 <h4 id="二、进一步理解http模块的作用"><a href="#二、进一步理解http模块的作用" class="headerlink" title="二、进一步理解http模块的作用"></a>二、进一步理解http模块的作用</h4><p>服务器和普通电脑的区别在于，服务器上安装了web服务器软件，例如：IIS、Apache等。通过安装这些服务器软件，就能把一台普通的电脑变成一台web服务器。</p>
 <p>在Node.js中，我们必须不需要使用IIS、Apache等这些第三方web服务器软件。因为我们可以基于Node.js提供的http模块，通过几行简单的代码，就能轻松的手写一个服务器软件，从而对外提供web服务。</p>
-<h4 id="三、服务器相关的概念"><a href="#三、服务器相关的概念" class="headerlink" title="三、服务器相关的概念"></a>三、服务器相关的概念</h4><h4 id="1、IP地址"><a href="#1、IP地址" class="headerlink" title="1、IP地址"></a>1、IP地址</h4><p><font color="red">IP地址</font>就是互联网上每台计算机的唯一地址，因此IP地址具有唯一性，如果把“个人电脑”比作“一个电话”，那么“IP地址”就相当于“电话号码”，只有在知道对方IP地址的前提下，才能与对应的电脑之间进行数据通信</p>
+<h4 id="三、服务器相关的概念"><a href="#三、服务器相关的概念" class="headerlink" title="三、服务器相关的概念"></a>三、服务器相关的概念</h4><h5 id="1、IP地址"><a href="#1、IP地址" class="headerlink" title="1、IP地址"></a>1、IP地址</h5><p><font color="red">IP地址</font>就是互联网上每台计算机的唯一地址，因此IP地址具有唯一性，如果把“个人电脑”比作“一个电话”，那么“IP地址”就相当于“电话号码”，只有在知道对方IP地址的前提下，才能与对应的电脑之间进行数据通信</p>
 <p>IP地址的格式：通常使用“<font color="#0fa5e0">点分十进制</font>”表示成（a.b.c.d)的形式，其中，a，b，c，d都是0~255之间的十进制整数。例如：用点分十进制表示的IP地址（192.168.1.1）</p>
 <p>【注】</p>
 <ol>
@@ -1189,6 +1189,7 @@ i5ting_toc -f 要转换的md文件路径 -o
   <span class="token property">"author"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>        // 作者
   <span class="token property">"license"</span><span class="token operator">:</span> <span class="token string">"ISC"</span>    // 开源许可协议
 <span class="token punctuation">}</span>
+
 </code></pre>
 <p>关于更多的license许可协议相关的内容，可自行查找</p>
 <h5 id="4、在index-js中定义格式化时间的方法"><a href="#4、在index-js中定义格式化时间的方法" class="headerlink" title="4、在index.js中定义格式化时间的方法"></a>4、在index.js中定义格式化时间的方法</h5><pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 这是包的入口文件</span>
@@ -1290,7 +1291,7 @@ module<span class="token punctuation">.</span>exports <span class="token operato
 <p>发布包的时候要慎重，尽量不要往npm上发布没有意义的包</p>
 <h3 id="模块的加载机制"><a href="#模块的加载机制" class="headerlink" title="模块的加载机制"></a><font color="red">模块的加载机制</font></h3><h4 id="一、优先从缓存中加载"><a href="#一、优先从缓存中加载" class="headerlink" title="一、优先从缓存中加载"></a>一、优先从缓存中加载</h4><p>模块在第一次加载后会被缓存。这也意味着多次调用require()不会导致模块的代码被执行多次。</p>
 <p>【注】：不论是内置模块、用户自定义模块、还是第三方模块，它们都会优先从缓存中加载，从而提高模块的加载效率</p>
-<h4 id="二、内置模块的加载机制"><a href="#二、内置模块的加载机制" class="headerlink" title="二、内置模块的加载机制"></a>二、内置模块的加载机制</h4><p>内置模块是由Node.js官方提供的模块，**<font color="red">内置模块的加载优先级是最高的</font>**</p>
+<h4 id="二、内置模块的加载机制"><a href="#二、内置模块的加载机制" class="headerlink" title="二、内置模块的加载机制"></a>二、内置模块的加载机制</h4><p>内置模块是由Node.js官方提供的模块，<font color="red"><strong>内置模块的加载优先级是最高的</strong></font></p>
 <p>例如，require(‘fs’)始终返回内置的fs模块，即使在node_modules目录下有名字相同的包也叫做fs</p>
 <h4 id="三、自定义模块的加载机制"><a href="#三、自定义模块的加载机制" class="headerlink" title="三、自定义模块的加载机制"></a>三、自定义模块的加载机制</h4><p>使用require()加载自定义模块时，必须指定以./或者../开头的路径标识符。在加载自定义模块时，如果没指定./或../这样的路径标识符，则node会把它当做内置模块或第三方模块进行加载</p>
 <p>同时，在使用require()导入自定义模块时，如果省略了文件的扩展名，则Node.js会按顺序分别尝试加载以下的文件：</p>
@@ -1397,6 +1398,7 @@ app<span class="token punctuation">.</span><span class="token keyword">get</span
     console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>req<span class="token punctuation">.</span>params<span class="token punctuation">)</span>
     res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>req<span class="token punctuation">.</span>params<span class="token punctuation">)</span> <span class="token comment" spellcheck="true">//  /user/1  结果 {"id": "1"}</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
+
 </code></pre>
 <h4 id="三、托管静态资源"><a href="#三、托管静态资源" class="headerlink" title="三、托管静态资源"></a>三、托管静态资源</h4><h5 id="1、express-static"><a href="#1、express-static" class="headerlink" title="1、express.static()"></a>1、express.static()</h5><p>express提供了一个非常好用的函数，叫做express.static()，通过它，我们可以非常方便的创建一个静态资源的服务器，例如，通过如下代码就可以将public目录下的图片、CSS文件、JavaScript文件对外开始访问了：</p>
 <pre class=" language-js"><code class="language-js">app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token keyword">static</span><span class="token punctuation">(</span><span class="token string">'./public'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
@@ -1503,7 +1505,7 @@ app<span class="token punctuation">.</span><span class="token function">listen</
     console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'express server running at http://192.168.1.4'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">}</span><span class="token punctuation">)</span>
 </code></pre>
-<p><strong><font color="skyblue">【注】app.use()函数的作用，就是来注册全局中间件</font></strong></p>
+<p><font color="skyblue"><strong>【注】app.use()函数的作用，就是来注册全局中间件</strong></font></p>
 <h5 id="5、为路由模块添加前缀"><a href="#5、为路由模块添加前缀" class="headerlink" title="5、为路由模块添加前缀"></a>5、为路由模块添加前缀</h5><p>类似于托管静态资源时，为静态资源统一挂载访问前缀一样，路由模块添加前缀的方式也非常简单：</p>
 <pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 导入路由模块</span>
 <span class="token keyword">const</span> userRouter <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./002-自定义的路由模块'</span><span class="token punctuation">)</span>
@@ -1615,7 +1617,1118 @@ app<span class="token punctuation">.</span><span class="token keyword">get</span
 app<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">,</span> mw1<span class="token punctuation">,</span> mw2<span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'Home page.'</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
 app<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">,</span> <span class="token punctuation">[</span>mw1<span class="token punctuation">,</span> mw2<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'Home page.'</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
 </code></pre>
-<h3 id="使用Express写接口"><a href="#使用Express写接口" class="headerlink" title="使用Express写接口"></a><font color="red">使用Express写接口</font></h3>
+<h5 id="8、了解中间件的五个使用注意事项"><a href="#8、了解中间件的五个使用注意事项" class="headerlink" title="8、了解中间件的五个使用注意事项"></a>8、了解中间件的五个使用注意事项</h5><ol>
+<li>一定要在路由之前注册中间件</li>
+<li>客户端发送过来的请求，可以连续调用多个中间件进行处理</li>
+<li>执行完中间件的业务代码之后，不要忘记调用next()函数</li>
+<li>为了防止代码逻辑混乱，调用next()函数后不要再写额外的代码。</li>
+<li>连续调用多个中间件时，多个中间件之间，共享req和res对象。</li>
+</ol>
+<h4 id="三、中间件的分类"><a href="#三、中间件的分类" class="headerlink" title="三、中间件的分类"></a>三、中间件的分类</h4><p>为了方便大家理解和记忆中间件的使用，Express官方把常见的中间件用法，分为了5大类，分别是：</p>
+<ol>
+<li>应用级别的中间件</li>
+<li>路由级别的中间件</li>
+<li>错误级别的中间件</li>
+<li>Express内置的中间件</li>
+<li>第三方的中间件</li>
+</ol>
+<h5 id="1、应用级别的中间件"><a href="#1、应用级别的中间件" class="headerlink" title="1、应用级别的中间件"></a>1、应用级别的中间件</h5><p>通过app.use()或app.get()或app.post()，绑定到app实例上的中间件，叫做应用级别的中间件，代码实例如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 应用级别的中间件（全局中间件）</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">,</span> next<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// 应用级别的中间件（局部中间件）</span>
+app<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">,</span> mw1<span class="token punctuation">,</span> <span class="token punctuation">(</span>rea<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'Home page.'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="2、路由级别的中间件"><a href="#2、路由级别的中间件" class="headerlink" title="2、路由级别的中间件"></a>2、路由级别的中间件</h5><p>绑定到express.Router()实例上的中间件，叫做路由级别的中间件。它的用法和应用级别中间件没有任何区别。只不过，应用级别的中间件是绑定到app实例上，路由级别中间件绑定到router实例上，代码示例如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token keyword">var</span> app <span class="token operator">=</span> <span class="token function">express</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">var</span> router <span class="token operator">=</span> express<span class="token punctuation">.</span><span class="token function">Router</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// 路由级别的中间件</span>
+router<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">,</span> next<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Time:'</span><span class="token punctuation">,</span> Date<span class="token punctuation">.</span><span class="token function">now</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">,</span> router<span class="token punctuation">)</span>
+</code></pre>
+<h5 id="3、错误级别的中间件"><a href="#3、错误级别的中间件" class="headerlink" title="3、错误级别的中间件"></a>3、错误级别的中间件</h5><p>错误级别中间件的作用：专门用来捕获整个项目中发生的异常错误，从而防止项目异常崩溃的问题</p>
+<p>格式：错误级别中间件的function处理函数中，必须有4个形参，形参顺序从前到后，分别是（err, req, res, next)。</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 错误级别的中间件</span>
+app<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>    <span class="token comment" spellcheck="true">// 路由</span>
+    <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token string">'服务器内部发生了错误！'</span><span class="token punctuation">)</span>   <span class="token comment" spellcheck="true">// 抛出一个自定义的错误</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'Home page.'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">(</span>err<span class="token punctuation">,</span> req<span class="token punctuation">,</span> res<span class="token punctuation">,</span> next<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>  <span class="token comment" spellcheck="true">// 错误级别的中间件</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'发生了错误：'</span> <span class="token operator">+</span> err<span class="token punctuation">.</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">//在服务器打印错误信息</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'Error!'</span> <span class="token operator">+</span> err<span class="token punctuation">.</span>message<span class="token punctuation">)</span>    <span class="token comment" spellcheck="true">// 向客户端响应错误相关内容</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+
+
+<span class="token comment" spellcheck="true">// 示例</span>
+<span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token function">express</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+
+<span class="token comment" spellcheck="true">// 制造错误</span>
+app<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token string">'服务器内部发生了错误！'</span><span class="token punctuation">)</span>   <span class="token comment" spellcheck="true">// 抛出自定义的错误信息</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'Home pade.'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// 定义错误级别的中间件，捕获整个项目的异常错误，防止程序的崩溃</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">(</span>err<span class="token punctuation">,</span> req<span class="token punctuation">,</span> res<span class="token punctuation">,</span> next<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'发生了错误'</span> <span class="token operator">+</span> err<span class="token punctuation">.</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'Error:'</span> <span class="token operator">+</span> err<span class="token punctuation">.</span>message<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">80</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Express server running at http://localhost:80'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p><font color="skyblue"><strong>【注】：错误级别的中间件，必须注册在所有路由之后！</strong></font></p>
+<h5 id="4、Express内置的中间件"><a href="#4、Express内置的中间件" class="headerlink" title="4、Express内置的中间件"></a>4、Express内置的中间件</h5><p>自Express4.16.0版本开始，Express内置了3个常用的中间件，极大的提高了Express项目的开发效率和体验：</p>
+<ol>
+<li>express.static快速托管静态资源的内置中间件，例如：HTML文件、图片、CSS样式等（无兼容性）</li>
+<li>express.json解析JSON格式的请求体数据（有兼容性，仅在4.16.0+版本中可用）</li>
+<li>express.urlencoded解析URL-encoded格式的请求体数据（有兼容性，仅在4.16.0+版本中可用）</li>
+</ol>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// Express内置的中间件</span>
+<span class="token comment" spellcheck="true">/* 
+    1、express.static
+    2、express.json
+    3、express.urlencoded
+*/</span>
+<span class="token comment" spellcheck="true">// 配置解析 application/json 格式数据的内置中间件</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">json</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 配置解析 application/x-www-form-urlencoded 格式数据的内置中间件</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">urlencoded</span><span class="token punctuation">(</span><span class="token punctuation">{</span>extended<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+
+
+<span class="token comment" spellcheck="true">//示例</span>
+<span class="token comment" spellcheck="true">// 导入express 模块</span>
+<span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 创建express的服务实例</span>
+<span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token function">express</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// 注意：除了错误级别的中间件，其他的中间件，必须在路由之前进行配置</span>
+<span class="token comment" spellcheck="true">// 通过express.json()这个中间件，解析表单中的JSON格式的数据</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">json</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 通过express.urlencoded()这个中间件，来解析表单中的 url-encoded 格式的数据</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>express<span class="token punctuation">.</span><span class="token function">urlencoded</span><span class="token punctuation">(</span><span class="token punctuation">{</span>extended<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+
+app<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/user'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 在服务器，可以使用req.body这个属性，来接收客户端发送过来的请求体数据</span>
+    <span class="token comment" spellcheck="true">// 默认情况下，如果不配置解析表单数据的中间件，则req.body默认等于undefined</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>req<span class="token punctuation">.</span>body<span class="token punctuation">)</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'ok'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+
+app<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/book'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 在服务器端，可以通过req.body来获取JSON格式的表单数据和 url-encoded格式的数据</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>req<span class="token punctuation">.</span>body<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'ok'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// 调用app.listen方法，指定端口号并启动web服务器</span>
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">80</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Express server running at http://192.168.1.4:80'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Express server running at http://localhost:80'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="5、第三方的中间件"><a href="#5、第三方的中间件" class="headerlink" title="5、第三方的中间件"></a>5、第三方的中间件</h5><p>非Express官方内置的，而是由第三方开发出来的中间件，叫做第三方中间件。在项目中，大家可以按需下载并配置第三方中间件，从而提高项目的开发效率</p>
+<p>例如：在<a href="mailto:express@4.16.0">express@4.16.0</a>之前的版本中，经常使用body-parser这个第三方中间件，来解析请求体数据。使用步骤如下：</p>
+<ol>
+<li>运行<code>npm i body-parser</code>安装中间件</li>
+<li>使用require导入中间件</li>
+<li>调用app.use()注册并使用中间件</li>
+</ol>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 导入express 模块</span>
+<span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 创建express的服务实例</span>
+<span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token function">express</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 导入第三方的中间件body-parser</span>
+<span class="token keyword">const</span> parser <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'body-parser'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 注册第三方的中间件</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>parser<span class="token punctuation">.</span><span class="token function">urlencoded</span><span class="token punctuation">(</span><span class="token punctuation">{</span> extended<span class="token punctuation">:</span> <span class="token boolean">false</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+
+app<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/user'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>req<span class="token punctuation">.</span>body<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'ok'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// 调用app.listen方法，指定端口号并启动web服务器</span>
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">80</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Express server running at http://192.168.1.4:80'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Express server running at http://localhost:80'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>【注】：Express内置的express.urlencoded中间件，就是基于body-parser这个第三方中间件进一步封装出来的。</p>
+<h4 id="四、自定义中间件"><a href="#四、自定义中间件" class="headerlink" title="四、自定义中间件"></a>四、自定义中间件</h4><h5 id="1、需求描述与实现步骤"><a href="#1、需求描述与实现步骤" class="headerlink" title="1、需求描述与实现步骤"></a>1、需求描述与实现步骤</h5><p>自己手动模拟一个类似于express.urlencoded这样的中间件，来解析POST提交到服务器的表单数据</p>
+<p>实现步骤：</p>
+<ol>
+<li><p>定义中间件</p>
+</li>
+<li><p>监听req的data事件</p>
+</li>
+<li><p>监听req的end事件</p>
+</li>
+<li><p>使用querystring模块解析请求体数据</p>
+</li>
+<li><p>将解析出来的数据对象挂载为req.body</p>
+</li>
+<li><p>将自定义中间件封装为模块</p>
+</li>
+</ol>
+<h5 id="2、定义中间件"><a href="#2、定义中间件" class="headerlink" title="2、定义中间件"></a>2、定义中间件</h5><p>使用app.use()来定义全局生效的中间件，代码如下：</p>
+<pre class=" language-js"><code class="language-js">app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">,</span> next<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 中间件的业务逻辑</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h5 id="3、监听req的data事件"><a href="#3、监听req的data事件" class="headerlink" title="3、监听req的data事件"></a>3、监听req的data事件</h5><p>在中间件中，需要监听req对象的data事件，来获取客户端发送到服务器的数据。</p>
+<p>如果数据量比较大，无法一次性发送完毕，则客户端会把数据切割后，分批发送到服务器。所以data事件可能会触发多次，每一次触发data事件时，获取到的数据只是完整数据的一部分，需要手动对接收到的数据进行拼接。</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 1、定义一个str字符串，专门用来存储客户端发送过来的请求体数据</span>
+    <span class="token keyword">let</span> str <span class="token operator">=</span> <span class="token string">''</span>
+    <span class="token comment" spellcheck="true">// 2、监听req的data事件</span>
+    req<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>chunk<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+        str <span class="token operator">+</span><span class="token operator">=</span> chunk
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="4、监听req的end事件"><a href="#4、监听req的end事件" class="headerlink" title="4、监听req的end事件"></a>4、监听req的end事件</h5><p>当请求体数据接收完毕之后，会自动触发req的end事件。</p>
+<p>因此，我们可以在req的end事件中，拿到并处理完整的请求体数据。示例代码如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 3、监听req对象的end事件（请求体发送完毕后自动触发）</span>
+    req<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'end'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// 打印完整的请求体数据</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>
+        <span class="token comment" spellcheck="true">// TODO：把字符串格式的请求体数据，解析成对象格式</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="5、使用querystring模块解析请求体数据"><a href="#5、使用querystring模块解析请求体数据" class="headerlink" title="5、使用querystring模块解析请求体数据"></a>5、使用querystring模块解析请求体数据</h5><p>Node.js内置了一个querystring模块，专门用来处理查询字符串。通过这个模块提供的parse()函数，可以轻松把查询字符串，解析成对象的格式。示例代码如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 导入处理querystring的Node.js内置模块</span>
+<span class="token keyword">const</span> qs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'quertstring'</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// 调用 qs.parse() 方法，把查询字符串解析为对象</span>
+<span class="token keyword">const</span> body <span class="token operator">=</span> qs<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>
+</code></pre>
+<h5 id="6、将解析出来的数据对象挂载为req-body"><a href="#6、将解析出来的数据对象挂载为req-body" class="headerlink" title="6、将解析出来的数据对象挂载为req.body"></a>6、将解析出来的数据对象挂载为req.body</h5><p>上游的中间件和下游的中间件及路由之间，共享同一份req和res。因此，我们可以将解析出来的数据，挂载为req的自定义属性，命名为req.body，供下游使用。示例代码如下：</p>
+<pre class=" language-js"><code class="language-js">    req<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'end'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// 打印完整的请求体数据</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>
+        <span class="token comment" spellcheck="true">// T0D0：把字符串格式的请求体数据解析为对象</span>
+        <span class="token comment" spellcheck="true">// 调用 qs.parse() 方法，把查询字符串解析为对象</span>
+        <span class="token keyword">const</span> body <span class="token operator">=</span> qs<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">// 调用qs.parse()方法，把查询字符串解析为对象</span>
+        req<span class="token punctuation">.</span>body <span class="token operator">=</span> body             <span class="token comment" spellcheck="true">// 将解析出来的请求体对象，挂载为req.body属性</span>
+        <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span>                      <span class="token comment" spellcheck="true">// 最后，一定要调用next()函数，执行后续的业务逻辑</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>整体代码：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 导入express 模块</span>
+<span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 创建express的服务实例</span>
+<span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token function">express</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 导入处理querystring的Node.js内置模块</span>
+<span class="token keyword">const</span> qs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'quertstring'</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// 这是解析表单数据的中间件</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">,</span> next<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 定义中间件具体的业务逻辑</span>
+    <span class="token comment" spellcheck="true">// 1、定义一个str字符串，专门用来存储客户端发送过来的请求体数据</span>
+    <span class="token keyword">let</span> str <span class="token operator">=</span> <span class="token string">''</span>
+    <span class="token comment" spellcheck="true">// 2、监听req的data事件</span>
+    req<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>chunk<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+        str <span class="token operator">+</span><span class="token operator">=</span> chunk
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token comment" spellcheck="true">// 3、监听req对象的end事件（请求体发送完毕后自动触发）</span>
+    req<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'end'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// 打印完整的请求体数据</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>
+        <span class="token comment" spellcheck="true">// T0D0：把字符串格式的请求体数据解析为对象</span>
+        <span class="token comment" spellcheck="true">// 调用 qs.parse() 方法，把查询字符串解析为对象</span>
+        <span class="token keyword">const</span> body <span class="token operator">=</span> qs<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">// 调用qs.parse()方法，把查询字符串解析为对象</span>
+        req<span class="token punctuation">.</span>body <span class="token operator">=</span> body             <span class="token comment" spellcheck="true">// 将解析出来的请求体对象，挂载为req.body属性</span>
+        <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span>                      <span class="token comment" spellcheck="true">// 最后，一定要调用next()函数，执行后续的业务逻辑</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+
+app<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/user'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span>res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'ok'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+
+<span class="token comment" spellcheck="true">// 调用app.listen方法，指定端口号并启动web服务器</span>
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">80</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Express server running at http://192.168.1.4:80'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Express server running at http://localhost:80'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="7、将自定义中间件封装为模块"><a href="#7、将自定义中间件封装为模块" class="headerlink" title="7、将自定义中间件封装为模块"></a>7、将自定义中间件封装为模块</h5><p>为了优化代码的结构，我们可以把自定义的中间件函数，封装为独立的模块，示例代码如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 封装的模块</span>
+<span class="token comment" spellcheck="true">// 导入处理querystring的Node.js内置模块</span>
+<span class="token keyword">const</span> qs <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'quertstring'</span><span class="token punctuation">)</span>
+
+
+<span class="token keyword">const</span> bodyParser <span class="token operator">=</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">,</span> next<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 定义中间件具体的业务逻辑</span>
+    <span class="token comment" spellcheck="true">// 1、定义一个str字符串，专门用来存储客户端发送过来的请求体数据</span>
+    <span class="token keyword">let</span> str <span class="token operator">=</span> <span class="token string">''</span>
+    <span class="token comment" spellcheck="true">// 2、监听req的data事件</span>
+    req<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'data'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>chunk<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+        str <span class="token operator">+</span><span class="token operator">=</span> chunk
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token comment" spellcheck="true">// 3、监听req对象的end事件（请求体发送完毕后自动触发）</span>
+    req<span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'end'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// 打印完整的请求体数据</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>
+        <span class="token comment" spellcheck="true">// T0D0：把字符串格式的请求体数据解析为对象</span>
+        <span class="token comment" spellcheck="true">// 调用 qs.parse() 方法，把查询字符串解析为对象</span>
+        <span class="token keyword">const</span> body <span class="token operator">=</span> qs<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span>str<span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">// 调用qs.parse()方法，把查询字符串解析为对象</span>
+        req<span class="token punctuation">.</span>body <span class="token operator">=</span> body             <span class="token comment" spellcheck="true">// 将解析出来的请求体对象，挂载为req.body属性</span>
+        <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span>                      <span class="token comment" spellcheck="true">// 最后，一定要调用next()函数，执行后续的业务逻辑</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> bodyParser
+
+<span class="token comment" spellcheck="true">// 使用</span>
+<span class="token comment" spellcheck="true">// 导入express 模块</span>
+<span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 创建express的服务实例</span>
+<span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token function">express</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 导入封装的中间件模块</span>
+<span class="token keyword">const</span> parser <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'./013-custom-body-parser'</span><span class="token punctuation">)</span>
+
+
+
+<span class="token comment" spellcheck="true">// 将自定义的中间件函数，注册为全局可用的中间件</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span>parser<span class="token punctuation">)</span>
+
+
+app<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/user'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span>res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token string">'ok'</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+
+<span class="token comment" spellcheck="true">// 调用app.listen方法，指定端口号并启动web服务器</span>
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">80</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Express server running at http://192.168.1.4:80'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Express server running at http://localhost:80'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="使用Express写接口"><a href="#使用Express写接口" class="headerlink" title="使用Express写接口"></a><font color="red">使用Express写接口</font></h3><h4 id="一、创建基本的服务器"><a href="#一、创建基本的服务器" class="headerlink" title="一、创建基本的服务器"></a>一、创建基本的服务器</h4><pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 导入express 模块</span>
+<span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 创建express的服务实例</span>
+<span class="token keyword">const</span> app <span class="token operator">=</span> <span class="token function">express</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+
+
+<span class="token comment" spellcheck="true">// 调用app.listen方法，指定端口号并启动web服务器</span>
+app<span class="token punctuation">.</span><span class="token function">listen</span><span class="token punctuation">(</span><span class="token number">80</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Express server running at http://192.168.1.4:80'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Express server running at http://localhost:80'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h4 id="二、创建API路由模块"><a href="#二、创建API路由模块" class="headerlink" title="二、创建API路由模块"></a>二、创建API路由模块</h4><pre class=" language-js"><code class="language-js"><span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> router <span class="token operator">=</span> express<span class="token punctuation">.</span><span class="token function">Router</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// 在这里挂载路由</span>
+
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> router
+</code></pre>
+<h4 id="三、编写GET接口"><a href="#三、编写GET接口" class="headerlink" title="三、编写GET接口"></a>三、编写GET接口</h4><pre class=" language-js"><code class="language-js"><span class="token keyword">const</span> express <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express'</span><span class="token punctuation">)</span>
+<span class="token keyword">const</span> router <span class="token operator">=</span> express<span class="token punctuation">.</span><span class="token function">Router</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// 在这里挂载路由get方式请求的</span>
+router<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'/get'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 通过req.query获取客户端通过查询字符串，发送到服务器的数据</span>
+    <span class="token keyword">const</span> query <span class="token operator">=</span> req<span class="token punctuation">.</span>query
+    <span class="token comment" spellcheck="true">// 调用res.send()方法，向客户端响应处理的结果</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        status<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>             <span class="token comment" spellcheck="true">// 0表示处理成功，1表示处理失败</span>
+        msg<span class="token punctuation">:</span> <span class="token string">'GET请求成功！'</span><span class="token punctuation">,</span>   <span class="token comment" spellcheck="true">// 状态的描述</span>
+        data<span class="token punctuation">:</span> query            <span class="token comment" spellcheck="true">// 需要响应给客户端的数据</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> router
+</code></pre>
+<h4 id="四、编写POST接口"><a href="#四、编写POST接口" class="headerlink" title="四、编写POST接口"></a>四、编写POST接口</h4><pre class=" language-js"><code class="language-js">router<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/post'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 1、获取客户端通过请求体，发送到服务器的URL-encoded数据</span>
+    <span class="token keyword">const</span> body <span class="token operator">=</span> req<span class="token punctuation">.</span>body
+    <span class="token comment" spellcheck="true">// 2、调用res.send()方法，把数据响应到客户端</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        status<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>              <span class="token comment" spellcheck="true">// 状态  0表示成功，1表示失败</span>
+        msg<span class="token punctuation">:</span> <span class="token string">'POST请求成功'</span><span class="token punctuation">,</span>     <span class="token comment" spellcheck="true">// 状态描述信息</span>
+        data<span class="token punctuation">:</span> body              <span class="token comment" spellcheck="true">// 需要响应给客户端的数据</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>【注】如果要获取URL-encoded格式的请求体数据，必须配置中间件app.use(express.urlencoded({extended: false}))</p>
+<h4 id="五、CORS跨域资源共享"><a href="#五、CORS跨域资源共享" class="headerlink" title="五、CORS跨域资源共享"></a>五、CORS跨域资源共享</h4><h5 id="1、接口的跨域问题"><a href="#1、接口的跨域问题" class="headerlink" title="1、接口的跨域问题"></a>1、接口的跨域问题</h5><p>刚才编写的GET和POST接口，存在一个很严重的问题：不支持跨域请求。</p>
+<p>解决接口跨域问题的方案主要有两种：</p>
+<p><font color="red"><strong>CORS</strong></font> （主流的解决方案，推荐使用）</p>
+<p><font color="red"><strong>JSONP</strong></font> （有缺陷的解决方案：只支持GET请求）</p>
+<h5 id="2、使用cors中间件解决跨域问题"><a href="#2、使用cors中间件解决跨域问题" class="headerlink" title="2、使用cors中间件解决跨域问题"></a>2、使用cors中间件解决跨域问题</h5><p>cors是Express的一个第三方中间件。通过安装和配置cors中间件，可以很方便地解决跨域问题。</p>
+<p>使用步骤分为如下3步：</p>
+<ol>
+<li>运行<code>npm i cors</code>安装中间件</li>
+<li>使用<code>const cors = require('cors')</code>导入中间件</li>
+<li>在路由之前调用<code>app.use(cors())</code>配置中间件</li>
+</ol>
+<h5 id="3、什么是CORS"><a href="#3、什么是CORS" class="headerlink" title="3、什么是CORS"></a>3、什么是CORS</h5><p>CORS（Cross-Origin Resource Sharing，跨域资源共享）由一系列HTTP响应头组成，这些HTTP响应头决定浏览器是否阻止前端JS代码跨域获取资源。</p>
+<p>浏览器的同源安全策略默认会阻止网页“跨域”获取资源。但如果接口服务器配置了CORS相关的HTTP响应头，就可以解除浏览器端的跨域访问限制。</p>
+<p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1645864488261.png" alt="1645864488261"></p>
+<h5 id="4、CORS的注意事项"><a href="#4、CORS的注意事项" class="headerlink" title="4、CORS的注意事项"></a>4、CORS的注意事项</h5><ol>
+<li>CORS主要在服务器端进行配置。客户端浏览器无需做任何额外的配置，即可请求开启了CORS的接口。</li>
+<li>CORS在浏览器中有兼容性。只有支持XMLHttpRequest Level2的浏览器，才能正常访问开启了CORS的服务端接口（例如：IE10+、Chrome4+、FireFox3.5+）。</li>
+</ol>
+<h5 id="5、CORS响应头部-Access-Control-Allow-Origin"><a href="#5、CORS响应头部-Access-Control-Allow-Origin" class="headerlink" title="5、CORS响应头部 - Access-Control-Allow-Origin"></a>5、CORS响应头部 - Access-Control-Allow-<font color="red">Origin</font></h5><p>响应头部中可以携带一个<font color="red"><strong>Access-Control-Allow-Origin</strong></font> 字段，其语法如下：</p>
+<pre class=" language-js"><code class="language-js">Access<span class="token operator">-</span>Control<span class="token operator">-</span>Allow<span class="token operator">-</span>Origin<span class="token punctuation">:</span> <span class="token operator">&lt;</span>origin<span class="token operator">></span> <span class="token operator">|</span> <span class="token operator">*</span>
+</code></pre>
+<p>其中，origin参数的值指定了允许访问该资源的外域URL。</p>
+<p>例如，下面的字段将只允许来自 <a href="http://itcast.cn的请求：">http://itcast.cn的请求：</a></p>
+<pre class=" language-js"><code class="language-js">res<span class="token punctuation">.</span><span class="token function">setHeader</span><span class="token punctuation">(</span><span class="token string">'Access-Control-Allow-Origin'</span><span class="token punctuation">,</span> <span class="token string">'http://itcast.cn'</span><span class="token punctuation">)</span>
+</code></pre>
+<p>如果指定了 Access-Control-Allow-Origin 字段的值为通配符 *，表示允许来自任何域的请求，示例代码如下：</p>
+<pre class=" language-js"><code class="language-js">res<span class="token punctuation">.</span><span class="token function">setHeader</span><span class="token punctuation">(</span><span class="token string">'Access-Control-Allow-Origin'</span><span class="token punctuation">,</span> <span class="token string">'*'</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="6、CORS响应头部-Access-Control-Allow-Headers"><a href="#6、CORS响应头部-Access-Control-Allow-Headers" class="headerlink" title="6、CORS响应头部 - Access-Control-Allow-Headers"></a>6、CORS响应头部 - Access-Control-Allow-<font color="red">Headers</font></h5><p>默认情况下，CORS仅支持客户端向服务器发送如下的9个请求头：</p>
+<p>Accept、Accept-Language、Content-Language、DPR、Downlink、Save-Data、Viewport-Width、Width、Content-Type（值仅限于 text/plain、multipart/form-data、application/x-www-form-urlencoded三者之一）</p>
+<p>如果客户端向服务器发送了额外的请求头信息，则需要在服务器端，通过Access-Control-Allow-Headers对额外的请求头进行声明，否则这次请求会失败！</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 允许客户端额外向服务器发送 Content-Type 请求头和 X-Custom-Header 请求头</span>
+<span class="token comment" spellcheck="true">// 注意：多个请求头之间使用英文的逗号进行分割</span>
+res<span class="token punctuation">.</span><span class="token function">setHeader</span><span class="token punctuation">(</span><span class="token string">'Access-Control-Allow-Headers'</span><span class="token punctuation">,</span> <span class="token string">'Content-Type, X-Custom-Header'</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="7、CORS响应头部-Access-Control-Allow-Methods"><a href="#7、CORS响应头部-Access-Control-Allow-Methods" class="headerlink" title="7、CORS响应头部 - Access-Control-Allow-Methods"></a>7、CORS响应头部 - Access-Control-Allow-<font color="red">Methods</font></h5><p>默认情况下，CORS仅支持客户端发起GET、POST、HEAD请求。</p>
+<p>如果客户端希望通过PUT、DELETE等方式请求服务器的资源，则需要在服务器端，通过Access-Control-Allow-Methods来指明实际请求所允许使用的HTTP方法。</p>
+<p>示例代码如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 只允许POST、GET、DELETE、HEAD请求方法</span>
+res<span class="token punctuation">.</span><span class="token function">setHeader</span><span class="token punctuation">(</span><span class="token string">'Access-Control-Allow-Methods'</span><span class="token punctuation">,</span> <span class="token string">'POST, GET, DELETE, HEAD'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 允许所有的HTTP请求方法</span>
+res<span class="token punctuation">.</span><span class="token function">setHeader</span><span class="token punctuation">(</span><span class="token string">'Access-Control-Allow-Methods'</span><span class="token punctuation">,</span> <span class="token string">'*'</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="8、CORS请求的分类"><a href="#8、CORS请求的分类" class="headerlink" title="8、CORS请求的分类"></a>8、CORS请求的分类</h5><p>客户端在请求CORS接口时，根据请求方式和请求头的不同，可以将CORS的请求分为两大类，分别是：</p>
+<ol>
+<li>简单请求</li>
+<li>预检请求</li>
+</ol>
+<h5 id="9、简单请求"><a href="#9、简单请求" class="headerlink" title="9、简单请求"></a>9、简单请求</h5><p>同时满足以下两大条件的请求，就属于简单请求：</p>
+<ol>
+<li>请求方式：GET、POST、HEAD三者之一</li>
+<li>HTTP头部信息不超过以下几种字段：无自定义头部字段、Accept、Accept-Language、Content-Language、DPR、Downlink、Save-Data、Viewport-Width、Width、Content-Type（只有三个值 text/plain、multipart/form-data、application/x-www-form-urlencoded）</li>
+</ol>
+<h5 id="10、预检请求"><a href="#10、预检请求" class="headerlink" title="10、预检请求"></a>10、预检请求</h5><p>只要符合以下任何一个条件的请求，都需要进行预检请求：</p>
+<ol>
+<li>请求方式为GET、POST、HEAD之外的请求Method类型</li>
+<li>请求头中包含自定义头部字段</li>
+<li>向服务器发送了 application/json 格式的数据</li>
+</ol>
+<p>在浏览器与服务器正式通信之前，浏览器会先发送OPTION请求进行预检，以获知服务器是否允许该实际请求，所以这一次的OPTION请求称为“预检请求”。服务器成功响应预检请求后，才会发送真正的请求，并且携带真实数据。</p>
+<h5 id="11、简单请求和预检请求的区别"><a href="#11、简单请求和预检请求的区别" class="headerlink" title="11、简单请求和预检请求的区别"></a>11、简单请求和预检请求的区别</h5><p>简单请求的特点：客户端与服务器之间只会发生一次请求。</p>
+<p>预检请求的特点：客户端与服务器之间会发生两次请求，OPTION预检请求成功之后，才会发起真正的请求。</p>
+<h4 id="六、JSONP接口"><a href="#六、JSONP接口" class="headerlink" title="六、JSONP接口"></a>六、JSONP接口</h4><h5 id="1、回顾JSONP的概念与特点"><a href="#1、回顾JSONP的概念与特点" class="headerlink" title="1、回顾JSONP的概念与特点"></a>1、回顾JSONP的概念与特点</h5><p><font color="red">概念</font>：浏览器端通过&lt;script&gt;标签的src属性，请求服务器上的数据，同时，服务器返回一个函数的调用。这种请求的方式叫做 JSONP。</p>
+<p><font color="red">特点</font>：</p>
+<ol>
+<li>JSONP不属于真正的Ajax请求，因为它没有使用XMLHttpRequest这个对象。</li>
+<li>JSONP仅支持GET请求，不支持POST、PUT、DELETE等请求。</li>
+</ol>
+<h5 id="2、创建-JSONP-接口的注意事项"><a href="#2、创建-JSONP-接口的注意事项" class="headerlink" title="2、创建 JSONP 接口的注意事项"></a>2、创建 JSONP 接口的注意事项</h5><p>如果项目中已经配置了CORS跨域资源共享，为了防止冲突，必须在配置CORS中间件之前声明 JSONP 的接口。否则 JSONP 接口会被处理成开启了 CORS 的接口。 示例代码如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 优先创建JSONP接口【使这个接口不会被处理成CORS接口】</span>
+app<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'/api/jsonp'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// 再配置 CORS 中间件【后续的所有接口，都会被处理成CORS接口】</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token function">cors</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment" spellcheck="true">// 这是一个开启了CORS的接口</span>
+app<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'/api/get'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="3、实现JSONP接口的步骤"><a href="#3、实现JSONP接口的步骤" class="headerlink" title="3、实现JSONP接口的步骤"></a>3、实现JSONP接口的步骤</h5><ol>
+<li>获取客户端发送过来的回调函数的名字</li>
+<li>得到要通过 JSONP 形式发送给客户端的数据</li>
+<li>根据前两步得到的数据，拼接出一个函数调用的字符串</li>
+<li>把上一步拼接得到的字符串，响应给客户端的&lt;script&gt;标签进行解析执行</li>
+</ol>
+<h5 id="4、实现JSONP接口的具体代码"><a href="#4、实现JSONP接口的具体代码" class="headerlink" title="4、实现JSONP接口的具体代码"></a>4、实现JSONP接口的具体代码</h5><pre><code>app.get('/api/jsonp', (req, res) =&gt; {
+    // 1、获取客户端发送过来的回调函数的名字
+    const funcName = req.query.callback
+    // 2、得到要通过JSONP形式发送给客户端的数据
+    const data = {name: 'zs', age: 22}
+    // 3、根据前两步得到的数据，拼接出一个函数调用的字符串
+    const scriptStr = `${funcName}(${JSON.stringify(data)})`
+    // 4、把上一步拼接得到的字符串，响应给客户端的&lt;script&gt;标签进行解析执行
+    res.send(scriptStr)
+})
+</code></pre>
+<h5 id="5、在网页中使用-jQuery-发起-JSONP-请求"><a href="#5、在网页中使用-jQuery-发起-JSONP-请求" class="headerlink" title="5、在网页中使用 jQuery 发起 JSONP 请求"></a>5、在网页中使用 jQuery 发起 JSONP 请求</h5><p>调用$.ajax()函数，提供 JSONP 的配置选项，从而发起 JSONP 请求，示例代码如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 4、为jsonp按钮绑定点击事件处理函数</span>
+            <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'#btnJsonp'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">on</span><span class="token punctuation">(</span><span class="token string">'click'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+                $<span class="token punctuation">.</span><span class="token function">ajax</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                    type<span class="token punctuation">:</span> <span class="token string">'GET'</span><span class="token punctuation">,</span>
+                    url<span class="token punctuation">:</span> <span class="token string">'http://192.168.1.4/api/jsonp'</span><span class="token punctuation">,</span>
+                    dataType<span class="token punctuation">:</span> <span class="token string">'jsonp'</span><span class="token punctuation">,</span>
+                    success<span class="token punctuation">:</span> <span class="token punctuation">(</span>res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+                        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span><span class="token punctuation">)</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h2 id="数据库与身份认证"><a href="#数据库与身份认证" class="headerlink" title="数据库与身份认证"></a><center>数据库与身份认证</center></h2><h3 id="数据库的基本概念"><a href="#数据库的基本概念" class="headerlink" title="数据库的基本概念"></a><font color="red">数据库的基本概念</font></h3><h4 id="一、什么是数据库"><a href="#一、什么是数据库" class="headerlink" title="一、什么是数据库"></a>一、什么是数据库</h4><p>数据库（database）是用来组织、存储和管理数据的仓库。</p>
+<p>当今世界是一个充满数据的互联网世界，充斥着大量的数据。数据的来源有很多，比如出行记录、消费记录、浏览的网页、发送的消息等等。除了文本类型的数据，图像、音乐、声音都是数据。</p>
+<p>为了方便管理互联网世界中的数据，就有了数据库管理系统的概念（简称：数据库）。用户可以对数据库中的数据进行新增、查询、更新、删除等操作</p>
+<h4 id="二、常见的数据库及分类"><a href="#二、常见的数据库及分类" class="headerlink" title="二、常见的数据库及分类"></a>二、常见的数据库及分类</h4><p>市面上的数据库有很多种，最常见的数据库有如下几个：</p>
+<ul>
+<li>MySQL数据库（目前使用最广泛、流行度最高的开源免费数据库；Community + Enterprise）</li>
+<li>Oracle数据库（收费）</li>
+<li>SQL Server 数据库（收费）</li>
+<li>Mongodb 数据库（Community + Enterprise）</li>
+</ul>
+<p>其中，MySQL、Oracle、SQL Server属于传统型数据库（又叫做：关系型数据库 或 SQL数据库），这三者的设计理念相同，用法比较类似。</p>
+<p>而Mongodb属于新型数据库（又叫做：非关系型数据库或NoSQL数据库），它在一定程度上弥补了传统型数据库的缺陷。</p>
+<h4 id="三、传统型数据库的数据组织结构"><a href="#三、传统型数据库的数据组织结构" class="headerlink" title="三、传统型数据库的数据组织结构"></a>三、传统型数据库的数据组织结构</h4><p>数据的组织结构：指的就是数据以什么样的结构进行存储。</p>
+<p>传统型数据库的数据组织结构，与Excel中数据的组织结构比较类似。</p>
+<p>因此，我们可以对比着Excel来了解和学习传统型数据库的数据组织结构。</p>
+<h5 id="1、Excel的数据组织结构"><a href="#1、Excel的数据组织结构" class="headerlink" title="1、Excel的数据组织结构"></a>1、Excel的数据组织结构</h5><p>每一个Excel中，数据的组织结构分别为工作簿、工作表、数据行、列这4大部分组成</p>
+<ol>
+<li>整个Excel叫做工作簿</li>
+<li>users和books是工作表</li>
+<li>users工作表中有3行数据</li>
+<li>每行数据由6列信息组成</li>
+<li>每列信息都有对应的数据类型</li>
+</ol>
+<h5 id="2、传统型数据库的数据组织结构"><a href="#2、传统型数据库的数据组织结构" class="headerlink" title="2、传统型数据库的数据组织结构"></a>2、传统型数据库的数据组织结构</h5><p>在传统型数据库中，数据的组织结构分为<font color="red"><strong>数据库（database）、数据表（table）、数据行（row）、字段（field）</strong></font>这4大部分组成</p>
+<ol>
+<li>数据库类似于Excel的工作簿</li>
+<li>数据表类似于Excel的工作表</li>
+<li>数据行类似于Excel的每一行数据</li>
+<li>字段类似于Excel的列</li>
+<li>每个字段都有对应的数据类型</li>
+</ol>
+<h5 id="3、实际开发中库、表、行、字段的关系"><a href="#3、实际开发中库、表、行、字段的关系" class="headerlink" title="3、实际开发中库、表、行、字段的关系"></a>3、实际开发中库、表、行、字段的关系</h5><ol>
+<li>在实际项目开发中，一般情况下，每个项目都对应独立的数据库。</li>
+<li>不同的数据，要存储到数据库的不同表中，例如：用户数据存储到users表中，图书数据存储到books表中。</li>
+<li>每个表中具体存储哪些信息，由字段来决定，例如：我们可以为users表设计id、username、password这3个字段。</li>
+<li>表中的行，代表每一条具体的数据。</li>
+</ol>
+<h3 id="安装并配置MySQL"><a href="#安装并配置MySQL" class="headerlink" title="安装并配置MySQL"></a><font color="red">安装并配置MySQL</font></h3><h4 id="一、了解需要安装哪些MySQL相关的软件"><a href="#一、了解需要安装哪些MySQL相关的软件" class="headerlink" title="一、了解需要安装哪些MySQL相关的软件"></a>一、了解需要安装哪些MySQL相关的软件</h4><p>对于开发人员来说，只需要安装MySQL Server和MySQL Workbench这两个软件，就能满足开发的需要了。</p>
+<ul>
+<li>MySQL Server：专门用来提供数据存储和服务的软件。</li>
+<li>MySQL Workbench：可视化的MySQL管理工具，通过它，可以方便操作存储在MySQL Server中的数据。</li>
+</ul>
+<h4 id="二、MySQL在Mac环境下的安装"><a href="#二、MySQL在Mac环境下的安装" class="headerlink" title="二、MySQL在Mac环境下的安装"></a>二、MySQL在Mac环境下的安装</h4><p>在Mac环境下安装MySQL的过程比Windows环境下的步骤简单很多：</p>
+<ol>
+<li>先运行mysql-8.0.19-macos10.15-x86_64.dmg这个安装包，将MySQL Server安装到Mac系统</li>
+<li>再运行mysql-workbench-community-8.0.19-macos-x86_64.dmg这个安装包，将可视化的MySQL Workbench工具安装到Mac系统</li>
+</ol>
+<p>具体的安装教程，可以参考如下</p>
+<h5 id="Mac-系统配置-MySql-数据库"><a href="#Mac-系统配置-MySql-数据库" class="headerlink" title="Mac 系统配置 MySql 数据库"></a>Mac 系统配置 MySql 数据库</h5><h6 id="1-安装-MySql-数据库"><a href="#1-安装-MySql-数据库" class="headerlink" title="1. 安装 MySql 数据库"></a>1. 安装 MySql 数据库</h6><ul>
+<li><p>1.1 双击打开安装包 <code>mysql-8.0.19-macos10.15-x86_64.dmg</code>：<br>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Mac/安装教程 - Mac系统安装MySql/imgs/1.1.png)</p>
+</li>
+<li><p>1.2 双击 <code>mysql-8.0.19-macos10.15-x86_64.pkg</code> 运行安装包，并点击 <code>继续</code> 按钮：<br>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Mac/安装教程 - Mac系统安装MySql/imgs/1.2.png)</p>
+</li>
+<li><p>1.3 进入 <code>介绍</code> 页面之后，点击 <code>继续</code> 按钮：<br>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Mac/安装教程 - Mac系统安装MySql/imgs/1.3.png)</p>
+</li>
+<li><p>1.4 进入 <code>安装类型</code> 页面之后，点击 <code>安装</code> 按钮：<br>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Mac/安装教程 - Mac系统安装MySql/imgs/1.4.png)</p>
+</li>
+<li><p>1.5 输入电脑的登录密码，从而确认此次安装行为：<br>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Mac/安装教程 - Mac系统安装MySql/imgs/1.5.png)</p>
+</li>
+<li><p>1.6 在 <code>Configuration</code> 页面，确认勾选了 <code>Use Legacy Password Encryption</code> 选项之后，点击 <code>Next</code> 按钮：<br>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Mac/安装教程 - Mac系统安装MySql/imgs/1.6.png)</p>
+</li>
+<li><p>1.7 为 root 用户设置初始密码为 admin123 之后，点击 <code>Finish</code> 按钮：<br>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Mac/安装教程 - Mac系统安装MySql/imgs/1.7.png)</p>
+</li>
+<li><p>1.8 再次输入电脑登陆密码，确认此次 <code>设置初始密码</code> 的操作：<br>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Mac/安装教程 - Mac系统安装MySql/imgs/1.8.png)</p>
+</li>
+<li><p>1.9 提示安装完成之后，点击 <code>关闭</code> 按钮即可：<br>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Mac/安装教程 - Mac系统安装MySql/imgs/1.9.png)</p>
+</li>
+</ul>
+<h6 id="2-安装-MySql-Workbench-可视化工具"><a href="#2-安装-MySql-Workbench-可视化工具" class="headerlink" title="2. 安装 MySql Workbench 可视化工具"></a>2. 安装 MySql Workbench 可视化工具</h6><ul>
+<li><p>2.1 双击打开安装包 <code>mysql-workbench-community-8.0.19-macos-x86_64.dmg</code>，进入到安装页面：<br>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Mac/安装教程 - Mac系统安装MySql/imgs/2.1.png)</p>
+</li>
+<li><p>2.2 使用鼠标左键，将 <code>MySQLWorkbench</code> 图标拖拽到右侧 <code>Applications</code> 图标之上后，松开鼠标左键，等待进度条完成之后，就完成了安装的过程：<br>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Mac/安装教程 - Mac系统安装MySql/imgs/2.2.png)</p>
+</li>
+<li><p>2.3 在启动台，找到 <code>MySQLWorkbench</code> 图标，点击之后，即可启动 MySQL 可视化管理工具：<br>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Mac/安装教程 - Mac系统安装MySql/imgs/2.3.png)<br><img src="D:/桌面/学习/正式学习/013-node.js/node基础/imgs/2.4.png"></p>
+</li>
+</ul>
+<h4 id="三、MySQL在Windows环境下的安装"><a href="#三、MySQL在Windows环境下的安装" class="headerlink" title="三、MySQL在Windows环境下的安装"></a>三、MySQL在Windows环境下的安装</h4><p>在Windows环境下安装MySQL，只需要运行mysql-installer-community-8.0.19.0.msi这个安装包，就能一次性将MySQL Server和MySQL Workbench安装到自己的电脑上。</p>
+<p>具体的安装教程，可以参考如下</p>
+<h5 id="MySQL-在-Windows-系统下的安装"><a href="#MySQL-在-Windows-系统下的安装" class="headerlink" title="MySQL 在 Windows 系统下的安装"></a>MySQL 在 Windows 系统下的安装</h5><ol>
+<li><p>双击 <code>mysql-installer-community-8.0.19.0.msi</code>，启动 MySQL 安装程序。</p>
+</li>
+<li><p>如果弹框提示如下的警告信息，证明你的电脑需要安装额外的 <code>.NET Framework</code> 依赖包。此时，先退出 MySQL 的安装程序，然后双击 <code>NDP452-KB2901907-x86-x64-AllOS-ENU.exe</code>，启动 <code>.NET Framework 4.5.2</code> 的安装程序。</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/0.jpg)</p>
+</li>
+<li><p>重新启动 MySQL 的安装程序，看到如下界面：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/1.jpg)</p>
+</li>
+<li><p>进入如下界面：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/2.jpg)</p>
+</li>
+<li><p>正在安装依赖项：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/3.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/4.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/5.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/6.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/7.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/9.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/10.jpg)</p>
+</li>
+<li><p>完成依赖项的安装：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/11.jpg)</p>
+<p>此时，会弹出如下警告窗，直接点击 Yes 即可：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/12.jpg)</p>
+</li>
+<li><p>进入 MySQL 的安装页面：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/14.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/15.jpg)</p>
+</li>
+<li><p>完成 MySQL 功能项的安装：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/16.jpg)</p>
+</li>
+<li><p>配置 MySQL：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/17.jpg)</p>
+</li>
+<li><p>选择 MySQL 数据库的运行模式：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/18.jpg)</p>
+</li>
+<li><p>设置网络模式：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/19.jpg)</p>
+</li>
+<li><p>配置身份认证方式：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/20.jpg)</p>
+</li>
+<li><p>将 MySQL 的默认 root 用户密码，设置为 admin123</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/21.jpg)</p>
+</li>
+<li><p>将 MySQL 配置为 Windows 的服务：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/22.jpg)</p>
+</li>
+<li><p>保存刚才对 MySQL 配置的修改：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/23.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/24.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/25.jpg)</p>
+</li>
+<li><p>继续完成后续的配置流程：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/26.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/27.jpg)</p>
+</li>
+<li><p>最后一个配置项：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/28.jpg)</p>
+<p>测试能否正常连接到刚才安装的 MySQL 数据库：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/29.jpg)</p>
+</li>
+<li><p>保存刚才的配置：</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/30.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/31.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/32.jpg)</p>
+<p>![](D:/桌面/学习/正式学习/013-node.js/node基础/素材/MySQL for Windows/安装教程 - Windows系统安装MySql/imgs/33.jpg)</p>
+</li>
+<li><p>完成 MySQL 的安装与配置：</p>
+<p>![34](D:\桌面\学习\正式学习\013-node.js\node基础\素材\MySQL for Windows\安装教程 - Windows系统安装MySql\imgs\34.jpg)</p>
+</li>
+</ol>
+<p>出现这个的话![ded2b57bec261a4064196aa9057fa3be](D:\桌面\学习\正式学习\013-node.js\node基础\素材\MySQL for Windows\安装教程 - Windows系统安装MySql\imgs\ded2b57bec261a4064196aa9057fa3be.png)</p>
+<p><font color="red"><strong>解决方法打开服务里的MySQL的属性，把登录切换成本地</strong></font></p>
+<h3 id="安装并配置MySQL-1"><a href="#安装并配置MySQL-1" class="headerlink" title="安装并配置MySQL"></a><font color="red">安装并配置MySQL</font></h3><h4 id="一、使用-MySQL-Workbench管理数据库"><a href="#一、使用-MySQL-Workbench管理数据库" class="headerlink" title="一、使用 MySQL Workbench管理数据库"></a>一、使用 MySQL Workbench管理数据库</h4><h5 id="1、连接数据库"><a href="#1、连接数据库" class="headerlink" title="1、连接数据库"></a>1、连接数据库</h5><p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1645944008317.png" alt="1645944008317"></p>
+<h5 id="2、了解主界面的组成部分"><a href="#2、了解主界面的组成部分" class="headerlink" title="2、了解主界面的组成部分"></a>2、了解主界面的组成部分</h5><p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1645946183391.png" alt="1645946183391"></p>
+<h5 id="3、创建数据库"><a href="#3、创建数据库" class="headerlink" title="3、创建数据库"></a>3、创建数据库</h5><p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1645946229726.png" alt="1645946229726"></p>
+<p>【注】不要出现中文和空格</p>
+<h5 id="4、创建数据表"><a href="#4、创建数据表" class="headerlink" title="4、创建数据表"></a>4、创建数据表</h5><p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1645946478881.png" alt="1645946478881"></p>
+<p>DataType数据类型：</p>
+<ol>
+<li>int整数</li>
+<li>varchar（len）字符串</li>
+<li>tinyint（1）布尔值</li>
+</ol>
+<p>字段的特殊标识：</p>
+<ol>
+<li>PK（Primary Key）主键、唯一标识</li>
+<li>NN（Not Null）值不允许为空</li>
+<li>UQ（Unique）值唯一</li>
+<li>AI（Auto Increment）值自动增长</li>
+</ol>
+<h5 id="5、向表中写入数据"><a href="#5、向表中写入数据" class="headerlink" title="5、向表中写入数据"></a>5、向表中写入数据</h5><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1645947998429.png" alt="1645947998429">
+
+<h4 id="二、使用SQL管理数据库"><a href="#二、使用SQL管理数据库" class="headerlink" title="二、使用SQL管理数据库"></a>二、使用SQL管理数据库</h4><h5 id="1、什么是SQL"><a href="#1、什么是SQL" class="headerlink" title="1、什么是SQL"></a>1、什么是SQL</h5><p>SQL（英文全称：Structured Query Language）是结构化查询语言，专门用来访问和处理数据库的编程语言。能够让我们以编程的形式，操作数据库里面的数据</p>
+<p>三个关键点：</p>
+<ol>
+<li>SQL是一门数据库编程语言</li>
+<li>使用SQL语言编写出来的代码，叫做SQL语句</li>
+<li>SQL语言只能在关系型数据库中使用（例如MySQL、Oracle、SQL Server）。非关系型数据库（例如Mongodb）不支持SQL语言</li>
+</ol>
+<h5 id="2、SQL能做什么"><a href="#2、SQL能做什么" class="headerlink" title="2、SQL能做什么"></a>2、SQL能做什么</h5><ol>
+<li>从数据库中查询数据</li>
+<li>向数据库中插入新的数据</li>
+<li>更新数据库中的数据</li>
+<li>从数据库删除数据</li>
+<li>可以创建新数据库</li>
+<li>可在数据库中创建新表</li>
+<li>可在数据库中创建存储过程、视图</li>
+<li>etc…</li>
+</ol>
+<h5 id="3、SQL的学习目标"><a href="#3、SQL的学习目标" class="headerlink" title="3、SQL的学习目标"></a>3、SQL的学习目标</h5><p>重点掌握如何使用SQL从数据表中：</p>
+<p>查询数据（select）、插入数据（iinsert into）、更新数据（update）、删除数据（delete）</p>
+<p>额外需要掌握的4种SQL语法：</p>
+<p>where条件、and和or运算符、order by 排序、count(*)函数</p>
+<h4 id="三、SQL的SELECT语句"><a href="#三、SQL的SELECT语句" class="headerlink" title="三、SQL的SELECT语句"></a>三、SQL的SELECT语句</h4><h5 id="1、语法"><a href="#1、语法" class="headerlink" title="1、语法"></a>1、语法</h5><p>SELECT语句用于从表中查询数据。执行的结果被存储在一个结果表中（称为结果集）。语法格式如下：</p>
+<pre class=" language-SQL"><code class="language-SQL">-- 这是注释
+-- 从FROM指定的【表中】，查询出【所有的】数据。*表示【所有列】
+SELECT * FEOM 表名称
+
+-- 从FROM指定的【表中】，查询出指定列名称（字段）的数据
+SELECT 列名称 FROM 表名称
+</code></pre>
+<p>【注】：SQL语句中的关键字对大小写不敏感。SELECT等效于select，FROM等效于from。<strong>注释是两个减号和一个空格</strong></p>
+<h5 id="2、SELECT-示例"><a href="#2、SELECT-示例" class="headerlink" title="2、SELECT * 示例"></a>2、SELECT * 示例</h5><p>我们希望从users表中选取所有的列，可以使用*取代列的名称，示例如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token comment" spellcheck="true">--注意：星号*是选取所有列的快捷方式</span>
+<span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> users<span class="token punctuation">;</span>
+</code></pre>
+<h5 id="3、SELECT-列名称-示例"><a href="#3、SELECT-列名称-示例" class="headerlink" title="3、SELECT 列名称 示例"></a>3、SELECT 列名称 示例</h5><p>如需获取名为“username”和“password”的列的内容（从名为“users”的数据表），请使用下面的SELECT语句：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token comment" spellcheck="true">-- 注意：多个列之间，使用英文逗号进行分隔</span>
+<span class="token keyword">SELECT</span> username<span class="token punctuation">,</span> password <span class="token keyword">FROM</span> users
+</code></pre>
+<h4 id="四、SQL的INSERT-INTO语句"><a href="#四、SQL的INSERT-INTO语句" class="headerlink" title="四、SQL的INSERT INTO语句"></a>四、SQL的INSERT INTO语句</h4><h5 id="1、语法-1"><a href="#1、语法-1" class="headerlink" title="1、语法"></a>1、语法</h5><p>INSERT INTO语句用于向数据表中插入新的数据行，语法格式如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token comment" spellcheck="true">-- 语法解读：向指定的表中，插入如下几列数据，列的值通过 values ——指定</span>
+<span class="token comment" spellcheck="true">-- 注意：列和值要意义对应，多个列和多个值之间，使用英文逗号分隔</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> table_name <span class="token punctuation">(</span>列<span class="token number">1</span><span class="token punctuation">,</span> 列<span class="token number">2</span><span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span> <span class="token keyword">VALUES</span> <span class="token punctuation">(</span>值<span class="token number">1</span><span class="token punctuation">,</span> 值<span class="token number">2</span><span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="2、INSERT-INTO示例"><a href="#2、INSERT-INTO示例" class="headerlink" title="2、INSERT INTO示例"></a>2、INSERT INTO示例</h5><p>向users表中，插入一条username为tony stark。password为098123的用户数据，示例如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token comment" spellcheck="true">-- 向users表中，插入新数据，sername为tony stark，password为098123</span>
+<span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> users <span class="token punctuation">(</span>username<span class="token punctuation">,</span> password<span class="token punctuation">)</span> <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'tony stark'</span><span class="token punctuation">,</span> <span class="token string">'098123'</span><span class="token punctuation">)</span>
+</code></pre>
+<h4 id="五、SQL的UPDATE语句"><a href="#五、SQL的UPDATE语句" class="headerlink" title="五、SQL的UPDATE语句"></a>五、SQL的UPDATE语句</h4><h5 id="1、语法-2"><a href="#1、语法-2" class="headerlink" title="1、语法"></a>1、语法</h5><p>UPDATE语句用于修改表中的数据。语法格式如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token comment" spellcheck="true">-- 语法解读：</span>
+<span class="token comment" spellcheck="true">-- 1、用UPTAE指定要更新哪个表中的数据</span>
+<span class="token comment" spellcheck="true">-- 2、用SET指定列对应的新值</span>
+<span class="token comment" spellcheck="true">-- 3、用WHERE指定更新的条件</span>
+<span class="token keyword">UPDATE</span> 表名称 <span class="token keyword">SET</span> 列名称 <span class="token operator">=</span> 新值 <span class="token keyword">WHERE</span> 列名称 <span class="token operator">=</span> 某值
+</code></pre>
+<h5 id="2、UPDATE示例-更新某一行中的一个列"><a href="#2、UPDATE示例-更新某一行中的一个列" class="headerlink" title="2、UPDATE示例 - 更新某一行中的一个列"></a>2、UPDATE示例 - 更新某一行中的一个列</h5><p>把users表中id为7的用户密码，更新为888888。示例如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token keyword">UPDATE</span> users <span class="token keyword">SET</span> password<span class="token operator">=</span><span class="token string">'888888'</span> <span class="token keyword">WHERE</span> id<span class="token operator">=</span><span class="token number">7</span>
+</code></pre>
+<h5 id="3、UPDATE示例-更新某一行中的若干列"><a href="#3、UPDATE示例-更新某一行中的若干列" class="headerlink" title="3、UPDATE示例 - 更新某一行中的若干列"></a>3、UPDATE示例 - 更新某一行中的若干列</h5><p>把users表中id为2的用户密码和用户状态，分别更新为admin123和1。示例如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token keyword">UPDATE</span> users <span class="token keyword">SET</span> password<span class="token operator">=</span><span class="token string">'admin123'</span><span class="token punctuation">,</span> <span class="token keyword">status</span><span class="token operator">=</span><span class="token number">1</span> <span class="token keyword">WHERE</span> id<span class="token operator">=</span><span class="token number">2</span>
+</code></pre>
+<h4 id="六、SQL的DELETE语句"><a href="#六、SQL的DELETE语句" class="headerlink" title="六、SQL的DELETE语句"></a>六、SQL的DELETE语句</h4><h5 id="1、语法-3"><a href="#1、语法-3" class="headerlink" title="1、语法"></a>1、语法</h5><p>DELETE语句用于删除表中的行。语法格式如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token comment" spellcheck="true">-- 语法解读：</span>
+<span class="token comment" spellcheck="true">-- 从指定的表中，根据WHERE条件，删除对应的数据行</span>
+<span class="token keyword">DELETE</span> <span class="token keyword">FROM</span> 表名称 <span class="token keyword">WHERE</span> 列名称 <span class="token operator">=</span> 值
+</code></pre>
+<h5 id="2、DELETE示例"><a href="#2、DELETE示例" class="headerlink" title="2、DELETE示例"></a>2、DELETE示例</h5><p>从users表中，删除id为4的用户，示例如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token comment" spellcheck="true">-- 注意：对于初学者来说，经常忘记提供WHERE条件，从而导致误删整张表的数据！一定要慎重!</span>
+<span class="token keyword">DELETE</span> <span class="token keyword">FROM</span> users <span class="token keyword">WHERE</span> id<span class="token operator">=</span><span class="token number">4</span>
+</code></pre>
+<h4 id="七、SQL的WHERE字句"><a href="#七、SQL的WHERE字句" class="headerlink" title="七、SQL的WHERE字句"></a>七、SQL的WHERE字句</h4><h5 id="1、语法-4"><a href="#1、语法-4" class="headerlink" title="1、语法"></a>1、语法</h5><p>WHERE子句用于限定选择的标准。在SELECT、UPDATE、DELETE语句中，皆可使用WHERE子句来限定选择的标准</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token comment" spellcheck="true">-- 查询语句中的WHERE条件</span>
+<span class="token keyword">SELECT</span> 列名称 <span class="token keyword">FROM</span> 表名称 <span class="token keyword">WHERE</span> 列 运算符 值
+<span class="token comment" spellcheck="true">-- 更新语句中的WHERE条件</span>
+<span class="token keyword">UPDATE</span> 表名称 <span class="token keyword">SET</span> 列<span class="token operator">=</span>新值 <span class="token keyword">WHERE</span> 列 运算符 值
+<span class="token comment" spellcheck="true">-- 删除语句中的WHERE条件</span>
+<span class="token keyword">DELETE</span> <span class="token keyword">FROM</span> 表名称 <span class="token keyword">WHERE</span> 列 运算符 值
+</code></pre>
+<h5 id="2、可在WHERE子句中使用的运算符"><a href="#2、可在WHERE子句中使用的运算符" class="headerlink" title="2、可在WHERE子句中使用的运算符"></a>2、可在WHERE子句中使用的运算符</h5><p>下面的运算符可在WHERE子句中使用，用来限定选择的标准：</p>
+<p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1645956154081.png" alt="1645956154081"></p>
+<p>【注】在某些版本的SQL中，操作符 &lt;&gt; 可以写为 !=</p>
+<h5 id="3、WHERE子句示例"><a href="#3、WHERE子句示例" class="headerlink" title="3、WHERE子句示例"></a>3、WHERE子句示例</h5><p>可以通过WHERE子句来限定SELECT的查询条件：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token comment" spellcheck="true">-- 查询status为1 的所有用户</span>
+<span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> users <span class="token keyword">WHERE</span> <span class="token keyword">status</span><span class="token operator">=</span><span class="token number">1</span>
+<span class="token comment" spellcheck="true">-- 查询id大于2的所有用户</span>
+<span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> users <span class="token keyword">WHERE</span> id<span class="token operator">></span><span class="token number">2</span>
+<span class="token comment" spellcheck="true">-- 查询username不等于admin的所有用户</span>
+<span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> users <span class="token keyword">WHERE</span> username<span class="token operator">&lt;></span><span class="token string">'admin'</span>
+</code></pre>
+<h4 id="八、SQL的AND和OR运算符"><a href="#八、SQL的AND和OR运算符" class="headerlink" title="八、SQL的AND和OR运算符"></a>八、SQL的AND和OR运算符</h4><h5 id="1、语法-5"><a href="#1、语法-5" class="headerlink" title="1、语法"></a>1、语法</h5><p>AND和OR可以在WHERE子语句中把两个或多个条件结合起来。</p>
+<p>AND表示必须同时满足多个条件，相当于JavaScript中的&amp;&amp;运算符，例如 if(a !==  10 &amp;&amp; a !== 20)</p>
+<p>OR表示只要满足任意一个条件即可，相当于JavaScript中的||运算符，例如 if(a !== 10 || a !== 20)</p>
+<h5 id="2、AND运算符示例"><a href="#2、AND运算符示例" class="headerlink" title="2、AND运算符示例"></a>2、AND运算符示例</h5><p>使用AND来显示所有status为0，并且id小于3的用户：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> users <span class="token keyword">WHERE</span> <span class="token keyword">status</span><span class="token operator">=</span><span class="token number">0</span> <span class="token operator">AND</span> id<span class="token operator">&lt;</span><span class="token number">3</span>
+</code></pre>
+<h5 id="3、OR运算符示例"><a href="#3、OR运算符示例" class="headerlink" title="3、OR运算符示例"></a>3、OR运算符示例</h5><p>使用OR来显示所有status为1，或者username为zs的用户：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> users <span class="token keyword">WHERE</span> <span class="token keyword">status</span><span class="token operator">=</span><span class="token number">1</span> <span class="token operator">OR</span> username<span class="token operator">=</span><span class="token string">'zs'</span>
+</code></pre>
+<h4 id="九、SQL的ORDER-BY-子句"><a href="#九、SQL的ORDER-BY-子句" class="headerlink" title="九、SQL的ORDER BY 子句"></a>九、SQL的ORDER BY 子句</h4><h5 id="1、语法-6"><a href="#1、语法-6" class="headerlink" title="1、语法"></a>1、语法</h5><p>ORDER BY 语句用于根据指定的列对结果集进行排序。</p>
+<p>ORDER BY 语句默认按照升序对记录进行排序。</p>
+<p>如果您希望按照降序对记录进行排序，可以使用DESC关键字。</p>
+<h5 id="2、ORDER-BY子句-升序排序"><a href="#2、ORDER-BY子句-升序排序" class="headerlink" title="2、ORDER BY子句 - 升序排序"></a>2、ORDER BY子句 - 升序排序</h5><p>对users表中的数据，按照status字段进行升序排序，示例如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token comment" spellcheck="true">-- 注意：如下两条SQL语句是等价的</span>
+<span class="token comment" spellcheck="true">--      因为ORDER BY 默认进行升序排序</span>
+<span class="token comment" spellcheck="true">--      其中， ASC 关键字代表升序排序</span>
+<span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> users <span class="token keyword">ORDER</span> <span class="token keyword">BY</span> <span class="token keyword">status</span><span class="token punctuation">;</span>
+<span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> users <span class="token keyword">ORDER</span> <span class="token keyword">BY</span> <span class="token keyword">status</span> <span class="token keyword">ASC</span><span class="token punctuation">;</span>
+</code></pre>
+<h5 id="3、ORDER-BY-子句-降序排序"><a href="#3、ORDER-BY-子句-降序排序" class="headerlink" title="3、ORDER BY 子句 - 降序排序"></a>3、ORDER BY 子句 - 降序排序</h5><p>对users表中的数据，按照id字段进行降序排序，示例如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token comment" spellcheck="true">-- 注意：DESC代表降序排序</span>
+<span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> users <span class="token keyword">ORDER</span> <span class="token keyword">BY</span> id <span class="token keyword">DESC</span><span class="token punctuation">;</span>
+</code></pre>
+<h5 id="4、ORDER-BY-子句-多重排序"><a href="#4、ORDER-BY-子句-多重排序" class="headerlink" title="4、ORDER BY 子句 - 多重排序"></a>4、ORDER BY 子句 - 多重排序</h5><p>对users表中的数据，先按照status字段进行降序排序，再按照username的字母顺序，进行升序排序，示例如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> users <span class="token keyword">ORDER</span> <span class="token keyword">BY</span> <span class="token keyword">status</span> <span class="token keyword">DESC</span><span class="token punctuation">,</span> username <span class="token keyword">ASC</span>
+</code></pre>
+<h4 id="十、SQL的COUNT-函数"><a href="#十、SQL的COUNT-函数" class="headerlink" title="十、SQL的COUNT(*)函数"></a>十、SQL的COUNT(*)函数</h4><h5 id="1、语法-7"><a href="#1、语法-7" class="headerlink" title="1、语法"></a>1、语法</h5><p>COUNT(*)函数用于返回查询结果的总数据条数，语法格式如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">FROM</span> 表名称
+</code></pre>
+<h5 id="2、COUNT-示例"><a href="#2、COUNT-示例" class="headerlink" title="2、COUNT(*)示例"></a>2、COUNT(*)示例</h5><p>查询users表中的status为0的总数据条数：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">FROM</span> users <span class="token keyword">WHERE</span> <span class="token keyword">status</span><span class="token operator">=</span><span class="token number">0</span>
+</code></pre>
+<h5 id="3、使用AS为列设置别名"><a href="#3、使用AS为列设置别名" class="headerlink" title="3、使用AS为列设置别名"></a>3、使用AS为列设置别名</h5><p>如果希望给查询出来的列名称设置别名，可以使用AS关键字，示例如下：</p>
+<pre class=" language-sql"><code class="language-sql"><span class="token comment" spellcheck="true">-- 将列名称从COUNT(*)修改为total</span>
+<span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">AS</span> total <span class="token keyword">FROM</span> users <span class="token keyword">WHERE</span> <span class="token keyword">status</span><span class="token operator">=</span><span class="token number">0</span>
+</code></pre>
+<h3 id="在项目中操作MySQL"><a href="#在项目中操作MySQL" class="headerlink" title="在项目中操作MySQL"></a><font color="red">在项目中操作MySQL</font></h3><h4 id="一、在项目中操作数据库的步骤"><a href="#一、在项目中操作数据库的步骤" class="headerlink" title="一、在项目中操作数据库的步骤"></a>一、在项目中操作数据库的步骤</h4><ol>
+<li>安装操作MySQL数据库的第三方模块（mysql）</li>
+<li>通过mysql模块连接到MySQL数据库</li>
+<li>通过mysql模块执行SQL语句</li>
+</ol>
+<p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1645959347807.png" alt="1645959347807"></p>
+<h4 id="二、安装与配置mysql模块"><a href="#二、安装与配置mysql模块" class="headerlink" title="二、安装与配置mysql模块"></a>二、安装与配置mysql模块</h4><h5 id="1、安装mysql模块"><a href="#1、安装mysql模块" class="headerlink" title="1、安装mysql模块"></a>1、安装mysql模块</h5><p>mysql模块是托管于npm上的第三方模块。它提供了在Node.js项目中连接和操作MySQL数据库的能力。</p>
+<p>想要在项目中使用它，需要先运行如下命令，将mysql安装为项目的依赖包：</p>
+<pre class=" language-shell"><code class="language-shell">npm install mysql
+</code></pre>
+<h5 id="2、配置mysql模块"><a href="#2、配置mysql模块" class="headerlink" title="2、配置mysql模块"></a>2、配置mysql模块</h5><p>在使用mysql模块操作MySQL数据库之前，必须先对mysql模块进行必要的配置，主要的配置步骤如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 1、导入mysql模块</span>
+<span class="token keyword">const</span> mysql <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'mysql'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 2、建立与MySQL数据库的连接</span>
+<span class="token keyword">const</span> db <span class="token operator">=</span> mysql<span class="token punctuation">.</span><span class="token function">createPool</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    host<span class="token punctuation">:</span> <span class="token string">'localhost'</span><span class="token punctuation">,</span>    <span class="token comment" spellcheck="true">// 数据库的IP地址</span>
+    user<span class="token punctuation">:</span> <span class="token string">'root'</span><span class="token punctuation">,</span>    <span class="token comment" spellcheck="true">// 登录数据库的账号</span>
+    password<span class="token punctuation">:</span> <span class="token string">'admin123'</span><span class="token punctuation">,</span>    <span class="token comment" spellcheck="true">// 登录数据库的密码</span>
+    database<span class="token punctuation">:</span> <span class="token string">'my_db_01'</span>    <span class="token comment" spellcheck="true">// 指定要操作哪个数据库</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="3、测试mysql模块能否正常工作"><a href="#3、测试mysql模块能否正常工作" class="headerlink" title="3、测试mysql模块能否正常工作"></a>3、测试mysql模块能否正常工作</h5><p>调用db.query()函数，指定要执行的SQL语句，通过回调函数拿到执行的结果：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 检测 mysql 模块能否正常工作</span>
+db<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token string">'SELECT 1'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> results<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message <span class="token operator">+</span> <span class="token string">'数据库连接失败'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment" spellcheck="true">// 只要能打印出[ RowDataPacket { '1': 1} ] 的结果，就证明数据库连接正常</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>results<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h4 id="三、使用mysql模块操作MySQL数据库"><a href="#三、使用mysql模块操作MySQL数据库" class="headerlink" title="三、使用mysql模块操作MySQL数据库"></a>三、使用mysql模块操作MySQL数据库</h4><h5 id="1、查询数据"><a href="#1、查询数据" class="headerlink" title="1、查询数据"></a>1、查询数据</h5><p>查询users表中所有的数据：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 查询users表中的所有的用户数据</span>
+db<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span><span class="token string">'SELECT * FROM users'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> data<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 查询失败</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment" spellcheck="true">// 查询成功</span>
+    <span class="token comment" spellcheck="true">// 【注】如果执行的是select查询语句，则执行的结果是数组</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>data<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="2、插入数据"><a href="#2、插入数据" class="headerlink" title="2、插入数据"></a>2、插入数据</h5><p>向users表中新增数据，其中username为Spider-Man，password为pcc321。示例代码如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 向users表中新增一条数据</span>
+<span class="token comment" spellcheck="true">// 1、要插入到users表中的数据对象</span>
+<span class="token keyword">const</span> user <span class="token operator">=</span> <span class="token punctuation">{</span> username<span class="token punctuation">:</span> <span class="token string">'Spider-Man'</span><span class="token punctuation">,</span> password<span class="token punctuation">:</span> <span class="token string">'pcc321'</span> <span class="token punctuation">}</span> 
+<span class="token comment" spellcheck="true">// 2、待执行的SQL语句，其中英文 ? 表示占位符</span>
+<span class="token comment" spellcheck="true">// const str = `insert into users (username, password) values (${user.username}, ${user.password})` </span>
+<span class="token keyword">const</span> sqlStr <span class="token operator">=</span> <span class="token string">'INSERT INTO users (username, password) VALUES ( ?, ? )'</span>
+<span class="token comment" spellcheck="true">// 3、使用数组的形式，依次为 ? 占位符指定具体的值</span>
+db<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span>sqlStr<span class="token punctuation">,</span> <span class="token punctuation">[</span>user<span class="token punctuation">.</span>username<span class="token punctuation">,</span> user<span class="token punctuation">.</span>password<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> data<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 执行sql语句失败了</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment" spellcheck="true">// 成功了</span>
+    <span class="token comment" spellcheck="true">// 【注】如果执行的是insert into 插入语句，则data是一个对象。</span>
+    <span class="token comment" spellcheck="true">// 可以通过affectedRows属性，来判断是否插入成功</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>data<span class="token punctuation">.</span>affectedRows <span class="token operator">===</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'插入成功'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="3、插入数据的便捷方式"><a href="#3、插入数据的便捷方式" class="headerlink" title="3、插入数据的便捷方式"></a>3、插入数据的便捷方式</h5><p>向表中新增数据时，如果数据对象的每个属性和数据表的字段一一对应，则可以通过如下方式快速插入数据：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 插入数据的便捷形式</span>
+<span class="token comment" spellcheck="true">// 1、要插入users数据表中的数据对象</span>
+<span class="token keyword">const</span> user <span class="token operator">=</span> <span class="token punctuation">{</span> username<span class="token punctuation">:</span> <span class="token string">'Spider-Man2'</span><span class="token punctuation">,</span> password<span class="token punctuation">:</span> <span class="token string">'pcc4321'</span> <span class="token punctuation">}</span>
+<span class="token comment" spellcheck="true">// 2、待执行的sql语句，其中英文的 ? 表示占位符</span>
+<span class="token keyword">const</span> sqlStr <span class="token operator">=</span> <span class="token string">'INSERT INTO users SET ?'</span>
+<span class="token comment" spellcheck="true">// 3、直接将数据对象当做占位符的值</span>
+db<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span>sqlStr<span class="token punctuation">,</span> user<span class="token punctuation">,</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> results<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 失败</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>results<span class="token punctuation">.</span>affectedRows <span class="token operator">===</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'数据插入成功'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span> <span class="token comment" spellcheck="true">// 成功</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="4、更新数据"><a href="#4、更新数据" class="headerlink" title="4、更新数据"></a>4、更新数据</h5><p>可以通过如下方式，更新表中数据：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 更新表中的用户信息</span>
+<span class="token comment" spellcheck="true">// 1、要更新的数据对象</span>
+<span class="token keyword">const</span> user <span class="token operator">=</span> <span class="token punctuation">{</span> id<span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">,</span> username<span class="token punctuation">:</span> <span class="token string">'aaa'</span><span class="token punctuation">,</span> password<span class="token punctuation">:</span> <span class="token string">'000'</span><span class="token punctuation">}</span>
+<span class="token comment" spellcheck="true">// 2、要执行的sql语句</span>
+<span class="token keyword">const</span> sqlStr <span class="token operator">=</span> <span class="token string">'UPDATE users SET username=?, password=? WHERE id=?'</span>
+<span class="token comment" spellcheck="true">// 3、调用 db.query() 执行 sql 语句的同时，使用数组依次为占位符指定具体的值</span>
+db<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span>sqlStr<span class="token punctuation">,</span> <span class="token punctuation">[</span>user<span class="token punctuation">.</span>username<span class="token punctuation">,</span> user<span class="token punctuation">.</span>password<span class="token punctuation">,</span> user<span class="token punctuation">.</span>id<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> results<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token comment" spellcheck="true">// 失败</span>
+    <span class="token comment" spellcheck="true">// 【注】执行了 update 语句之后，执行的结果也是一个对象，可以通过affectedRows 判断是否更新成功</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>results<span class="token punctuation">.</span>affectedRows <span class="token operator">===</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'数据更新成功'</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 成功</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="5、更新数据的便捷方式"><a href="#5、更新数据的便捷方式" class="headerlink" title="5、更新数据的便捷方式"></a>5、更新数据的便捷方式</h5><p>更新表数据时，如果数据对象的每个属性和数据表的字段一一对应，则可以通过如下方式快速更新表数据：    </p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 更新表中数据的快捷方式</span>
+<span class="token comment" spellcheck="true">// 1、要更新的数据对象</span>
+<span class="token keyword">const</span> user <span class="token operator">=</span> <span class="token punctuation">{</span>id<span class="token punctuation">:</span> <span class="token number">4</span><span class="token punctuation">,</span> username<span class="token punctuation">:</span> <span class="token string">'aaaa'</span><span class="token punctuation">,</span> password<span class="token punctuation">:</span> <span class="token string">'0000'</span><span class="token punctuation">}</span>
+<span class="token comment" spellcheck="true">// 2、要执行的sql语句</span>
+<span class="token keyword">const</span> sqlStr <span class="token operator">=</span> <span class="token string">'UPDATE users SET ? WHERE id=?'</span>
+<span class="token comment" spellcheck="true">// 3、调用db.query()执行sql语句的同时，使用数组依次为占位符指定具体的值。</span>
+db<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span>sqlStr<span class="token punctuation">,</span> <span class="token punctuation">[</span>user<span class="token punctuation">,</span> user<span class="token punctuation">.</span>id<span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> results<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>results<span class="token punctuation">.</span>affectedRows <span class="token operator">===</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>results<span class="token punctuation">)</span><span class="token punctuation">;</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'数据更新成功'</span><span class="token punctuation">)</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="6、删除数据"><a href="#6、删除数据" class="headerlink" title="6、删除数据"></a>6、删除数据</h5><p>在删除数据时，推荐根据id这样的唯一标识，来删除对应的数据。示例如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 删除表中数据</span>
+<span class="token comment" spellcheck="true">// 1、要执行的sql语句</span>
+<span class="token keyword">const</span> sqlStr <span class="token operator">=</span> <span class="token string">'DELETE FROM users WHERE id=?'</span>
+<span class="token comment" spellcheck="true">// 2、调用db.query()执行sql语句的同时，为占位符指定具体的值</span>
+<span class="token comment" spellcheck="true">// 【注】如果sql语句中有多个占位符，则必须使用数组为每个占位符指定具体的值</span>
+<span class="token comment" spellcheck="true">//      如果sql语句中只有一个占位符，则可以省略数组</span>
+db<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span>sqlStr<span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> results<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span> <span class="token comment" spellcheck="true">// 失败</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>results<span class="token punctuation">.</span>affectedRows <span class="token operator">===</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'数据删除成功'</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span>   <span class="token comment" spellcheck="true">// 成功</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="7、标记删除"><a href="#7、标记删除" class="headerlink" title="7、标记删除"></a>7、标记删除</h5><p>使用DELETE语句，会把真正的数据从表中删除掉。为了保险起见，推荐使用标记删除的形式，来模拟删除的动作。</p>
+<p>所谓的标记删除，就是在表中设置类似于status这样的状态字段，来标记当前这条数据是否被删除。</p>
+<p>当用户执行了删除的动作时，我们并没有执行DELETE语句把数据删除掉，而是执行了UPDATE语句，将这条数据的status字段标记为删除即可。</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 标记删除</span>
+<span class="token keyword">const</span> sqlStr <span class="token operator">=</span> <span class="token string">'UPDATE users SET status=? WHERE id=?'</span>
+db<span class="token punctuation">.</span><span class="token function">query</span><span class="token punctuation">(</span>sqlStr<span class="token punctuation">,</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> results<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>message<span class="token punctuation">)</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>results<span class="token punctuation">.</span>affectedRows <span class="token operator">===</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'数据标记删除成功'</span><span class="token punctuation">)</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="前后端的身份认证"><a href="#前后端的身份认证" class="headerlink" title="前后端的身份认证"></a><font color="red">前后端的身份认证</font></h3><h4 id="一、Web开发模式"><a href="#一、Web开发模式" class="headerlink" title="一、Web开发模式"></a>一、Web开发模式</h4><p>目前主流的Web开发模式有两种，分别是：</p>
+<ol>
+<li>基于服务端渲染的传统Web开发模式</li>
+<li>基于前后端分离的新型Web开发模式</li>
+</ol>
+<h5 id="1、服务端渲染的Web开发模式"><a href="#1、服务端渲染的Web开发模式" class="headerlink" title="1、服务端渲染的Web开发模式"></a>1、服务端渲染的Web开发模式</h5><p>服务端渲染的概念：服务器发送给客户端的HTML页面，是在服务器通过字符串的拼接，动态生成的。因此，客户端不需要使用Ajax这样的技术额外请求页面的数据。代码示例如下：</p>
+<pre class=" language-js"><code class="language-js">app<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'/index.html'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 1、要渲染的数据</span>
+    <span class="token keyword">const</span> user <span class="token operator">=</span> <span class="token punctuation">{</span> name<span class="token punctuation">:</span> <span class="token string">'zs'</span><span class="token punctuation">,</span> age<span class="token punctuation">:</span> <span class="token number">20</span> <span class="token punctuation">}</span>
+    <span class="token comment" spellcheck="true">// 2、服务器端通过字符串的拼接，动态生成HTML内容</span>
+    <span class="token keyword">const</span> html <span class="token operator">=</span> <span class="token template-string"><span class="token string">`&lt;h1>姓名：</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>user<span class="token punctuation">.</span>name<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">，年龄：</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>user<span class="token punctuation">.</span>age<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">&lt;/h1>`</span></span>
+    <span class="token comment" spellcheck="true">// 3、把生成好的页面内容响应给客户端。因此，客户端拿到的是带有真是数据的HTML页面</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>html<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="2、服务端渲染的优缺点"><a href="#2、服务端渲染的优缺点" class="headerlink" title="2、服务端渲染的优缺点"></a>2、服务端渲染的优缺点</h5><p>优点：</p>
+<ol>
+<li>前端耗时少。因为服务器端负责动态生成HTML内容，浏览器只需要直接渲染页面即可。尤其是移动端，更加省电。</li>
+<li>有利于SEO。因为服务器端响应的是完整的HTML页面内容，所以爬虫更容易爬取获得信息，更有利于SEO。</li>
+</ol>
+<p>缺点：</p>
+<ol>
+<li>占用服务器端资源。即服务器端完成HTML页面内容的拼接，如果请求较多，会对服务器造成一定的访问压力。</li>
+<li>不利于前后端分离，开发效率低。使用服务器端渲染，则无法进行分工合作，尤其对于前端复杂度高的项目，不利于项目高效开发。</li>
+</ol>
+<h5 id="3、前后端分离的Web开发模式"><a href="#3、前后端分离的Web开发模式" class="headerlink" title="3、前后端分离的Web开发模式"></a>3、前后端分离的Web开发模式</h5><p>前后端分离的概念：前后端分离的开发模式，依赖于Ajax技术的广泛应用。简而言之，前后端分离的Web开发模式就是后端只负责提供API接口，前端使用Ajax调用接口的开发模式。</p>
+<h5 id="4、前后端分离的优缺点"><a href="#4、前后端分离的优缺点" class="headerlink" title="4、前后端分离的优缺点"></a>4、前后端分离的优缺点</h5><p>优点：</p>
+<ol>
+<li>开发体验好。前端专注于UI页面的开发，后端专注于api的开发，且前端有更多的选择性。</li>
+<li>用户体验好。Ajax技术的广泛应用，极大的提高了用户的体验，可以轻松实现页面的局部刷新。</li>
+<li>减轻了服务器端的渲染压力。因为页面最终是在每个用户的浏览器中生成的。</li>
+</ol>
+<p>缺点：</p>
+<ol>
+<li>不利于SEO。因为完整的HTML页面需要在客户端动态拼接完成，所以爬虫无法爬取页面的有效信息。（解决方案：利用Vue、React等前端框架的SSR（server side render）技术能够很好的解决SEO问题!）</li>
+</ol>
+<h5 id="5、如何选择Web开发模式"><a href="#5、如何选择Web开发模式" class="headerlink" title="5、如何选择Web开发模式"></a>5、如何选择Web开发模式</h5><ul>
+<li>比如企业级网站，主要功能是展示而没有复杂的交互，并且需要良好的SEO，则这时我们就需要使用服务器端渲染。</li>
+<li>而类似后台管理项目，交互性比较强，不需要考虑SEO，那么就可以使用前后端分离的开发模式。</li>
+</ul>
+<p>另外，具体使用何种开发模式并不是绝对的，为了同时兼顾了首页的渲染速度和前后端分离的开发效率，一些网站采用了首屏服务器端渲染 + 其他页面前后端分离的开发模式。</p>
+<h4 id="二、身份认证"><a href="#二、身份认证" class="headerlink" title="二、身份认证"></a>二、身份认证</h4><h5 id="1、什么是身份认证"><a href="#1、什么是身份认证" class="headerlink" title="1、什么是身份认证"></a>1、什么是身份认证</h5><p>身份认证（Authentication）又称“身份验证”、“鉴权”，是指通过一定的手段，完成对用户身份的确认。</p>
+<ul>
+<li>日常生活中的身份认证随处可见，例如：高铁的验票乘车，手机的密码或指纹解锁，支付宝或微信的支付密码等。</li>
+<li>在Web开发中，也涉及到用户身份的认证，例如：各大网站的手机验证码登录、邮箱密码登录、二维码登录等。 </li>
+</ul>
+<h5 id="2、为什么需要身份认证"><a href="#2、为什么需要身份认证" class="headerlink" title="2、为什么需要身份认证"></a>2、为什么需要身份认证</h5><p>身份认证的目的，是为了确认当前所声称为某种身份的用户，确实是所声称的用户。例如，你去找快递员取快递，你要怎么证明这份快递是你的。</p>
+<p>在互联网项目开发中，如何对用户的身份进行认证，是一个值得深入探讨的问题。例如，如何才能保证网站不会错误的将“马云的存款数额” 显示到“马化腾的账户” 上。</p>
+<h5 id="3、不同开发模式下的身份认证"><a href="#3、不同开发模式下的身份认证" class="headerlink" title="3、不同开发模式下的身份认证"></a>3、不同开发模式下的身份认证</h5><p>对于服务端渲染和前后端分离这种开发模式来说，分别有着不同的身份认证方案：</p>
+<ol>
+<li>服务端渲染推荐使用 <font color="skyblue"><strong>Session认证机制</strong></font></li>
+<li>前后端分离推荐使用 <font color="red"><strong>JWT认证机制</strong></font></li>
+</ol>
+<h4 id="三、Session-认证机制"><a href="#三、Session-认证机制" class="headerlink" title="三、Session 认证机制"></a>三、Session 认证机制</h4><h5 id="1、HTTP协议的无状态性"><a href="#1、HTTP协议的无状态性" class="headerlink" title="1、HTTP协议的无状态性"></a>1、HTTP协议的无状态性</h5><p>了解HTTP协议的无状态性是进一步学习Session认证机制的必要前提。</p>
+<p>HTTP协议的无状态性，指的是客户端的每次HTTP请求都是独立的，连续多个请求之间没有直接的关系，服务器不会主动保留每次HTTp请求的状态。</p>
+<p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1646021268288.png" alt="1646021268288"></p>
+<h5 id="2、如何突破HTTP无状态的限制"><a href="#2、如何突破HTTP无状态的限制" class="headerlink" title="2、如何突破HTTP无状态的限制"></a>2、如何突破HTTP无状态的限制</h5><p>对于超市来说，为了方便收银员在进行结算时给VIP用户打折，超市可以为每个VIP用户发放会员卡。</p>
+<p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1646024400142.png" alt="1646024400142"></p>
+<p>【注】在现实中的会员卡身份认证方式，在Web开发中的专业术语叫做Cookie</p>
+<h5 id="3、什么是Cookie"><a href="#3、什么是Cookie" class="headerlink" title="3、什么是Cookie"></a>3、什么是Cookie</h5><p>Cookie是存储在用户浏览器中的一段不超过4KB的字符串。它由一个名称（Name）、一个值（Value）和其它几个用于控制Cookie有效期、安全性、使用范围的可选属性组成。</p>
+<p>不同域名下的Cookie各自独立，每当客户端发起请求时，会自动把当前域名下所有未过期的Cookie一同发送到服务器。</p>
+<p>Cookie的几大特性：</p>
+<ol>
+<li>自动发送</li>
+<li>域名独立</li>
+<li>过期时限</li>
+<li>4KB限制</li>
+</ol>
+<h5 id="4、Cookie在身份认证中的作用"><a href="#4、Cookie在身份认证中的作用" class="headerlink" title="4、Cookie在身份认证中的作用"></a>4、Cookie在身份认证中的作用</h5><p>客户端第一次请求服务器的时候，服务器通过响应头的形式，向客户端发送一个身份认证的Cookie，客户端会自动将Cookie保存在浏览器中。</p>
+<p>随后，当客户端浏览器每次请求服务器的时候，浏览器会自动将身份认证相关的Cookie，通过请求头的形式发送给服务器，服务器即可验明客户端的身份。</p>
+<p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1646025392059.png" alt="1646025392059"></p>
+<h5 id="5、Cookie不具有安全性"><a href="#5、Cookie不具有安全性" class="headerlink" title="5、Cookie不具有安全性"></a>5、Cookie不具有安全性</h5><p>由于Cookie是存储在浏览器中的，而且浏览器也提供了读写Cookie的API，因此Cookie很容易被伪造，不具有安全性。因此不建议服务器将重要的隐私数据，通过Cookie的形式发送给浏览器。</p>
+<p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1646025808828.png" alt="1646025808828"></p>
+<p>【注】千万不要使用Cookie存储重要且隐私的数据！比如用户的身份信息、密码等。</p>
+<h5 id="6、提高身份认证的安全性"><a href="#6、提高身份认证的安全性" class="headerlink" title="6、提高身份认证的安全性"></a>6、提高身份认证的安全性</h5><p>为了防止客户伪造会员卡，收银员在拿到客户出示的会员卡之后，可以在收银机上进行刷卡认证。只有收银机确认存在的会员卡，才能被正常使用。</p>
+<p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1646025989747.png" alt="1646025989747"></p>
+<p>这种“ 会员卡 + 刷卡认证 ”的设计理念，就是Session认证机制的精髓。</p>
+<h5 id="7、Session的工作原理"><a href="#7、Session的工作原理" class="headerlink" title="7、Session的工作原理"></a>7、Session的工作原理</h5><p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1646026105610.png" alt="1646026105610"></p>
+<h4 id="四、在Express中使用Session认证"><a href="#四、在Express中使用Session认证" class="headerlink" title="四、在Express中使用Session认证"></a>四、在Express中使用Session认证</h4><h5 id="1、安装express-session中间件"><a href="#1、安装express-session中间件" class="headerlink" title="1、安装express-session中间件"></a>1、安装express-session中间件</h5><p>在Express项目中，只需要安装 express-session 中间件，即可在项目中使用Session认证：</p>
+<pre class=" language-shell"><code class="language-shell">npm install express-session
+</code></pre>
+<h5 id="2、配置express-session中间件"><a href="#2、配置express-session中间件" class="headerlink" title="2、配置express-session中间件"></a>2、配置express-session中间件</h5><p>express-session中间件安装成功后，需要通过<code>app.user()</code>来注册session中间件，示例代码如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 1、导入session中间件</span>
+<span class="token keyword">const</span> session <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express-session'</span><span class="token punctuation">)</span>
+
+
+<span class="token comment" spellcheck="true">// 2、配置Session中间件</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token function">session</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    secret<span class="token punctuation">:</span> <span class="token string">'keyboard cat'</span><span class="token punctuation">,</span>         <span class="token comment" spellcheck="true">// secret 属性的值可以为任意字符串</span>
+    resave<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>                  <span class="token comment" spellcheck="true">// 固定写法</span>
+    saveUninitialized<span class="token punctuation">:</span> <span class="token boolean">true</span>         <span class="token comment" spellcheck="true">// 固定写法</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="3、向session中存数据"><a href="#3、向session中存数据" class="headerlink" title="3、向session中存数据"></a>3、向session中存数据</h5><p>当express-session中间件配置成功后，即可通过req.session来访问和使用session对象，从而存储用户的关键信息：</p>
+<pre class=" language-js"><code class="language-js">app<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/api/login'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 判断用户提交的登录信息是否正确</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>req<span class="token punctuation">.</span>body<span class="token punctuation">.</span>username <span class="token operator">!==</span> <span class="token string">'admin'</span> <span class="token operator">||</span> req<span class="token punctuation">.</span>body<span class="token punctuation">.</span>password <span class="token operator">!==</span> <span class="token string">'123456'</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>status<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span> msg<span class="token punctuation">:</span> <span class="token string">'登录失败！账号或密码错误'</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    
+    <span class="token comment" spellcheck="true">// 将登陆成功后的用户信息，保存到 Session 中</span>
+    <span class="token comment" spellcheck="true">// 【注】只有成功配置注册express-session这个中间件之后，才能通过req点出来session这个属性</span>
+    req<span class="token punctuation">.</span>session<span class="token punctuation">.</span>user <span class="token operator">=</span> req<span class="token punctuation">.</span>body     <span class="token comment" spellcheck="true">// 将用户的信息，存储到Session中</span>
+    req<span class="token punctuation">.</span>session<span class="token punctuation">.</span>islogin <span class="token operator">=</span> <span class="token boolean">true</span>      <span class="token comment" spellcheck="true">// 将用户的登录状态，存储到Session中</span>
+
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>status<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span> msg<span class="token punctuation">:</span> <span class="token string">'登录成功'</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="4、从session中取数据"><a href="#4、从session中取数据" class="headerlink" title="4、从session中取数据"></a>4、从session中取数据</h5><p>可以直接从req.session对象上获取之前存储的数据，示例代码如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 获取用户姓名的接口</span>
+app<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'/api/username'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 判断用户是否登录</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>req<span class="token punctuation">.</span>session<span class="token punctuation">.</span>islogin<span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>status<span class="token punctuation">:</span> <span class="token number">1</span><span class="token punctuation">,</span> msg<span class="token punctuation">:</span> <span class="token string">'fail'</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>status<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span> msg<span class="token punctuation">:</span> <span class="token string">'success'</span><span class="token punctuation">,</span> username<span class="token punctuation">:</span> req<span class="token punctuation">.</span>session<span class="token punctuation">.</span>user<span class="token punctuation">.</span>username<span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="5、清空session"><a href="#5、清空session" class="headerlink" title="5、清空session"></a>5、清空session</h5><p>调用<code>req.session.destroy()</code>函数，即可清空服务器保存的session信息。</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 退出登录的接口</span>
+app<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/api/logout'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// 清空当前客户端对应的session信息</span>
+    req<span class="token punctuation">.</span>session<span class="token punctuation">.</span><span class="token function">destroy</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        status<span class="token punctuation">:</span> <span class="token number">0</span><span class="token punctuation">,</span>
+        msg<span class="token punctuation">:</span> <span class="token string">'退出登录成功'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p>【注】调用<code>req.session.destroy()</code>函数只会清空当前用户的session信息，不会清空其他用户的</p>
+<h4 id="五、JWT认证机制"><a href="#五、JWT认证机制" class="headerlink" title="五、JWT认证机制"></a>五、JWT认证机制</h4><h5 id="1、了解Session认证的局限性"><a href="#1、了解Session认证的局限性" class="headerlink" title="1、了解Session认证的局限性"></a>1、了解Session认证的局限性</h5><p>Session认证机制需要配合Cookie才能实现。由于Cookie默认不支持跨域访问，所以，当涉及到前端跨域请求后端接口的时候，需要做很多额外的配置，才能实现跨域Session认证。</p>
+<p>【注】</p>
+<ul>
+<li>当前端请求后端接口不存在跨域问题的时候，推荐使用Session身份认证机制。</li>
+<li>当前端需要跨域请求后端接口的时候，不推荐使用Session身份认证机制，推荐使用JWT认证机制。</li>
+</ul>
+<h5 id="2、什么是JWT"><a href="#2、什么是JWT" class="headerlink" title="2、什么是JWT"></a>2、什么是JWT</h5><p>JWT（英文全称：JSON Web Token）是目前最流行的跨域认证解决方案。</p>
+<h5 id="3、JWT的工作原理"><a href="#3、JWT的工作原理" class="headerlink" title="3、JWT的工作原理"></a>3、JWT的工作原理</h5><p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1646030962028.png" alt="1646030962028"></p>
+<p>总结：用户的信息通过Token字符串的形式，保存在客户端浏览器中。服务器通过还原Token字符串的形式来认证用户的身份。</p>
+<h5 id="4、JWT的组成部分"><a href="#4、JWT的组成部分" class="headerlink" title="4、JWT的组成部分"></a>4、JWT的组成部分</h5><p>JWT通常由三部分组成，分别是Header（头部）、Payload（有效荷载）、Signature（签名）。</p>
+<p>三者之间使用英文的“ . ”分隔，格式如下：</p>
+<pre><code>Header.Payload.Signature
+</code></pre>
+<p>下面是JWT字符串的示例：</p>
+<p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1646031382072.png" alt="1646031382072"></p>
+<h5 id="5、JWT的三个部分各自代表的含义"><a href="#5、JWT的三个部分各自代表的含义" class="headerlink" title="5、JWT的三个部分各自代表的含义"></a>5、JWT的三个部分各自代表的含义</h5><p>JWT的三个组成部分，从前到后分别是Header、Payload、Signature。</p>
+<p>其中：</p>
+<ul>
+<li>Payload  部分才是真正的用户信息，它是用户信息经过加密之后生成的字符串。</li>
+<li>Header和Signature是安全性相关的部分，只是为了保证Token的安全性。</li>
+</ul>
+<p><img src="C:\Users\xiao\AppData\Roaming\Typora\typora-user-images\1646031610512.png" alt="1646031610512"></p>
+<h5 id="6、JWT的使用方式"><a href="#6、JWT的使用方式" class="headerlink" title="6、JWT的使用方式"></a>6、JWT的使用方式</h5><p>客户端收到服务器返回的JWT之后，通常会将它储存到localStorage或sessionStorage中。</p>
+<p>此后，客户端每次与服务器通信，都要带上这个JWT的字符串，从而进行身份认证。推荐的做法是把JWT放在HTTP请求头的Authorization字段中，格式如下：</p>
+<pre class=" language-js"><code class="language-js">Authorization<span class="token punctuation">:</span> Bearer <span class="token operator">&lt;</span>token<span class="token operator">></span>
+</code></pre>
+<h4 id="六、在Express中使用JWT"><a href="#六、在Express中使用JWT" class="headerlink" title="六、在Express中使用JWT"></a>六、在Express中使用JWT</h4><h5 id="1、安装JWT相关的包"><a href="#1、安装JWT相关的包" class="headerlink" title="1、安装JWT相关的包"></a>1、安装JWT相关的包</h5><p>运行如下命令，安装如下两个JWT相关的包：</p>
+<pre class=" language-shell"><code class="language-shell">npm install jsonwebtoken express-jwt
+</code></pre>
+<p>其中：</p>
+<ul>
+<li>jsonwebtoken用于生成JWT字符串</li>
+<li>express-jwt用于将JWT字符串解析还原成JSON对象</li>
+</ul>
+<h5 id="2、导入JWT相关的包"><a href="#2、导入JWT相关的包" class="headerlink" title="2、导入JWT相关的包"></a>2、导入JWT相关的包</h5><p>使用require()函数，分别导入JWT相关的两个包：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 1、导入用于生成JWT字符串的包</span>
+<span class="token keyword">const</span> jwt <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'jsoonwebtoken'</span><span class="token punctuation">)</span>
+<span class="token comment" spellcheck="true">// 2、导入用于将客户端发送过来的JWT字符串，解析还原成JSON对象的包</span>
+<span class="token keyword">const</span> expressJWT <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'express-jwt'</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="3、定义secret密钥"><a href="#3、定义secret密钥" class="headerlink" title="3、定义secret密钥"></a>3、定义secret密钥</h5><p>为了保证JWT字符串的安全性，防止JWT字符串在网络传输过程中被别人破解，我们需要专门定义一个用于加密和解密的secret密钥：</p>
+<ol>
+<li>当生成JWT字符串的时候，需要使用secret密钥对用户的信息进行加密，最终得到加密好的JWT字符串</li>
+<li>当把JWT字符串解析还原成JSON对象的时候，需要使用secret密钥进行解密</li>
+</ol>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 3、secret密钥的本质：就是一个字符串</span>
+<span class="token keyword">const</span> secretKey <span class="token operator">=</span> <span class="token string">'manong-xiaoyu No1 ^_^ !'</span>
+</code></pre>
+<h5 id="4、在登录成功后生成JWT字符串"><a href="#4、在登录成功后生成JWT字符串" class="headerlink" title="4、在登录成功后生成JWT字符串"></a>4、在登录成功后生成JWT字符串</h5><p>调用jsonwebtoken包提供的sign()方法，将用户的信息加密成JWT字符串，响应给客户端：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 登录接口</span>
+app<span class="token punctuation">.</span><span class="token function">post</span><span class="token punctuation">(</span><span class="token string">'/api/login'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span>res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token keyword">const</span> userinfo <span class="token operator">=</span> req<span class="token punctuation">.</span>body
+    <span class="token comment" spellcheck="true">// 判断用户是否登录成功</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>userinfo<span class="token punctuation">.</span>username <span class="token operator">!==</span> <span class="token string">'admin'</span> <span class="token operator">||</span> userinfo<span class="token punctuation">.</span>password <span class="token operator">!==</span> <span class="token string">'123456'</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>status<span class="token punctuation">:</span> <span class="token number">400</span><span class="token punctuation">,</span> msg<span class="token punctuation">:</span> <span class="token string">'登录失败！账号或密码错误'</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment" spellcheck="true">// 用户登录成功之后，生成JWT字符串，通过token属性响应到客户端</span>
+    res<span class="token punctuation">.</span><span class="token function">end</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        status<span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+        message<span class="token punctuation">:</span> <span class="token string">'登录成功！'</span><span class="token punctuation">,</span>
+        <span class="token comment" spellcheck="true">// 调用jwt.sign()生成JWT字符串，三个参数分别是：用户信息对象、加密密钥、配置对象</span>
+        token<span class="token punctuation">:</span> jwt<span class="token punctuation">.</span><span class="token function">sign</span><span class="token punctuation">(</span><span class="token punctuation">{</span>username<span class="token punctuation">:</span> usernameinfo<span class="token punctuation">.</span>username<span class="token punctuation">}</span><span class="token punctuation">,</span> secretKey<span class="token punctuation">,</span> <span class="token punctuation">{</span>expiresIn<span class="token punctuation">:</span> <span class="token string">'30s'</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<h5 id="5、将JWT字符串还原为JSON对象"><a href="#5、将JWT字符串还原为JSON对象" class="headerlink" title="5、将JWT字符串还原为JSON对象"></a>5、将JWT字符串还原为JSON对象</h5><p>客户端每次在访问哪些有权限接口的时候，都需要主动通过请求头中的Authorization字段，将Token字符串发送到服务器进行身份认证。</p>
+<p>此时，服务器可以通过express-jwt这个中间件，自动将客户端发送过来的Token解析还原成JSON对象：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 使用 app.use()来注册中间件</span>
+<span class="token comment" spellcheck="true">// expressJWT({secret: secretkey})就是用来解析Token的中间件</span>
+<span class="token comment" spellcheck="true">// .unless({path: [/^\/api\//]})用来指定哪些接口不需要访问权限</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token function">expressJWT</span><span class="token punctuation">(</span><span class="token punctuation">{</span>secret<span class="token punctuation">:</span> secretKey<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">unless</span><span class="token punctuation">(</span><span class="token punctuation">{</span>path<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token operator">/</span><span class="token operator">^</span>\<span class="token operator">/</span>api\<span class="token operator">/</span><span class="token operator">/</span><span class="token punctuation">]</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre>
+<p>【注】只要配置成功了express-jwt这个中间件，就可以把解析出来的用户信息，挂载到req.user属性上。</p>
+<h5 id="6、使用req-user获取用户信息"><a href="#6、使用req-user获取用户信息" class="headerlink" title="6、使用req.user获取用户信息"></a>6、使用req.user获取用户信息</h5><p>当express-jwt这个中间件配置成功之后，即可在哪些有权限的接口中，使用req.user对象，来访问从JWT字符串中解析出来的用户信息了，示例代码如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 这是一个有权限的API接口</span>
+app<span class="token punctuation">.</span><span class="token keyword">get</span><span class="token punctuation">(</span><span class="token string">'/admin/getinfo'</span><span class="token punctuation">,</span> <span class="token punctuation">(</span>req<span class="token punctuation">,</span>res<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span>user<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        status<span class="token punctuation">:</span> <span class="token number">200</span><span class="token punctuation">,</span>
+        message<span class="token punctuation">:</span> <span class="token string">'获取用户信息成功！'</span><span class="token punctuation">,</span>
+        data<span class="token punctuation">:</span> req<span class="token punctuation">.</span>user
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+<p><font color="red"><strong>【注】千万不要把密码加密到token字符串中</strong></font></p>
+<h5 id="7、捕获解析JWT失败后产生的错误"><a href="#7、捕获解析JWT失败后产生的错误" class="headerlink" title="7、捕获解析JWT失败后产生的错误"></a>7、捕获解析JWT失败后产生的错误</h5><p>当使用express-jwt解析Token字符串时，如果客户端发送过来的Token字符串过期或不合法，会产生一个解析失败的错误，影响项目的正常运行。我们可以通过Express的错误中间件，捕获这个错误并进行相关的处理，示例代码如下：</p>
+<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 错误中间件捕获解析JWT失败</span>
+app<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token punctuation">(</span>err<span class="token punctuation">,</span> req<span class="token punctuation">,</span> res<span class="token punctuation">,</span> next<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// token解析失败导致的错误</span>
+    <span class="token keyword">if</span><span class="token punctuation">(</span>err<span class="token punctuation">.</span>name <span class="token operator">===</span> <span class="token string">'UnauthorizedError'</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            status<span class="token punctuation">:</span> <span class="token number">401</span><span class="token punctuation">,</span>
+            message<span class="token punctuation">:</span> <span class="token string">'无效的token'</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token comment" spellcheck="true">// 其它原因导致的错误</span>
+    res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+        status<span class="token punctuation">:</span> <span class="token number">500</span><span class="token punctuation">,</span>
+        message<span class="token punctuation">:</span> <span class="token string">'未知错误'</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre>
+
                 
             </div>
             <hr/>
